@@ -66,15 +66,16 @@ def stitch_audio(video_path: str, audio_path: str, output_path: str):
 
     print("Stitching audio (ffmpeg remux)...")
     pathlib.Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-
     cmd = [
         "ffmpeg", "-y",
         "-i", video_path,
         "-i", audio_path,
+        "-filter_complex", "[1:a]apad[a]",  # pad dubbed audio with silence if it ends early
         "-c:v", "copy",        # copy video stream without re-encoding
         "-map", "0:v:0",       # take video from first input
-        "-map", "1:a:0",       # take audio from second input
-        "-shortest",           # stop when shortest stream ends
+        # earlier: "-map", "1:a:0",       # take audio from second input
+        "-map", "[a]",         # take padded audio from filter output
+        "-shortest",           # stop when shortest stream ends, which in this case is the end of the original video as we are padding the translated audio with silence to match the video length
         output_path,
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)

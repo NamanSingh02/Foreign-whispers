@@ -106,21 +106,13 @@ def _compute_speech_offset(title: str) -> float:
     return yt_start - whisper_start
 
 
-@router.get("/captions/{video_id}")
-async def get_captions(video_id: str):
-    """Serve translated (target-language) captions as WebVTT.
-
-    Applies the YouTube caption timing offset so subtitles start when speech begins.
-    """
-    title = resolve_title(video_id)
-    if title is None:
-        raise HTTPException(status_code=404, detail=f"Video {video_id} not found")
-
+def _ensure_dubbed_captions(title: str) -> pathlib.Path:
+    """Create dubbed WebVTT captions from translated segments if missing."""
     vtt_dir = settings.dubbed_captions_dir
     vtt_path = vtt_dir / f"{title}.vtt"
 
     if vtt_path.exists():
-        return PlainTextResponse(vtt_path.read_text(), media_type="text/vtt")
+        return vtt_path
 
     json_path = settings.translations_dir / f"{title}.json"
     if not json_path.exists():
@@ -140,7 +132,21 @@ async def get_captions(video_id: str):
     vtt = _segments_to_vtt(segments)
     vtt_dir.mkdir(parents=True, exist_ok=True)
     vtt_path.write_text(vtt)
-    return PlainTextResponse(vtt, media_type="text/vtt")
+    return vtt_path
+
+
+@router.get("/captions/{video_id}")
+async def get_captions(video_id: str):
+    """Serve translated (target-language) captions as WebVTT.
+
+    Applies the YouTube caption timing offset so subtitles start when speech begins.
+    """
+    title = resolve_title(video_id)
+    if title is None:
+        raise HTTPException(status_code=404, detail=f"Video {video_id} not found")
+
+    vtt_path = _ensure_dubbed_captions(title)
+    return PlainTextResponse(vtt_path.read_text(), media_type="text/vtt")
 
 
 def _youtube_captions_to_vtt(caption_path: pathlib.Path) -> str:
@@ -225,6 +231,7 @@ async def stitch_endpoint(
     output_path = output_dir / f"{title}.mp4"
 
     if output_path.exists():
+        _ensure_dubbed_captions(title)
         return {"video_id": video_id, "video_path": str(output_path), "config": config}
 
     video_path = str(videos_dir / f"{title}.mp4")
@@ -241,6 +248,8 @@ async def stitch_endpoint(
             str(output_path),
         ),
     )
+
+    _ensure_dubbed_captions(title)
 
     return {"video_id": video_id, "video_path": str(output_path), "config": config}
 

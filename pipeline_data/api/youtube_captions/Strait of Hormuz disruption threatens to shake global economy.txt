@@ -1,0 +1,336 @@
+{"text": "What's the worst case scenario that", "start": 7.99, "duration": 0.009999999999999787}
+{"text": "What's the worst case scenario that you're<00:00:08.240><c> worried</c><00:00:08.480><c> about</c><00:00:09.360><c> is</c><00:00:09.599><c> that</c><00:00:09.760><c> it</c><00:00:10.000><c> is</c>", "start": 8.0, "duration": 2.2300000000000004}
+{"text": "you're worried about is that it is", "start": 10.23, "duration": 0.009999999999999787}
+{"text": "you're worried about is that it is closed<00:00:10.639><c> for</c><00:00:11.120><c> weeks</c><00:00:11.440><c> and</c><00:00:11.599><c> weeks</c><00:00:11.840><c> and</c><00:00:12.080><c> weeks</c>", "start": 10.24, "duration": 2.1500000000000004}
+{"text": "closed for weeks and weeks and weeks", "start": 12.39, "duration": 0.009999999999999787}
+{"text": "closed for weeks and weeks and weeks here<00:00:13.120><c> and</c><00:00:13.759><c> you</c><00:00:14.080><c> start</c><00:00:14.320><c> to</c><00:00:14.559><c> see</c><00:00:14.799><c> the</c><00:00:15.360><c> global</c>", "start": 12.4, "duration": 3.349}
+{"text": "here and you start to see the global", "start": 15.749, "duration": 0.009999999999999787}
+{"text": "here and you start to see the global economy<00:00:16.640><c> really</c><00:00:16.960><c> being</c><00:00:17.199><c> impacted</c><00:00:17.840><c> because</c>", "start": 15.759, "duration": 2.471}
+{"text": "economy really being impacted because", "start": 18.23, "duration": 0.00999999999999801}
+{"text": "economy really being impacted because the<00:00:18.800><c> it</c><00:00:19.119><c> is</c><00:00:19.279><c> the</c><00:00:19.439><c> lifeblood</c><00:00:20.000><c> to</c><00:00:20.160><c> a</c><00:00:20.320><c> certain</c>", "start": 18.24, "duration": 2.3900000000000006}
+{"text": "the it is the lifeblood to a certain", "start": 20.63, "duration": 0.010000000000001563}
+{"text": "the it is the lifeblood to a certain extent.<00:00:21.039><c> So</c><00:00:21.279><c> the</c><00:00:21.439><c> reality</c><00:00:21.840><c> is</c><00:00:22.240><c> the</c><00:00:22.480><c> longer</c>", "start": 20.64, "duration": 2.1499999999999986}
+{"text": "extent. So the reality is the longer", "start": 22.79, "duration": 0.010000000000001563}
+{"text": "extent. So the reality is the longer that<00:00:22.960><c> this</c><00:00:23.199><c> goes</c><00:00:23.439><c> on,</c><00:00:23.760><c> the</c><00:00:23.920><c> greater</c><00:00:24.240><c> impact</c>", "start": 22.8, "duration": 1.75}
+{"text": "that this goes on, the greater impact", "start": 24.55, "duration": 0.00999999999999801}
+{"text": "that this goes on, the greater impact it's<00:00:24.880><c> going</c><00:00:24.960><c> to</c><00:00:25.039><c> have</c><00:00:25.600><c> across</c><00:00:26.000><c> industries,</c>", "start": 24.56, "duration": 2.0700000000000003}
+{"text": "it's going to have across industries,", "start": 26.63, "duration": 0.010000000000001563}
+{"text": "it's going to have across industries, across<00:00:26.960><c> regions.</c><00:00:27.920><c> This</c><00:00:28.160><c> week</c><00:00:28.320><c> on</c><00:00:28.560><c> 60</c><00:00:28.960><c> Minutes,</c>", "start": 26.64, "duration": 2.628999999999998}
+{"text": "across regions. This week on 60 Minutes,", "start": 29.269, "duration": 0.010000000000001563}
+{"text": "across regions. This week on 60 Minutes, we<00:00:29.519><c> report</c><00:00:29.760><c> on</c><00:00:29.920><c> the</c><00:00:30.080><c> Straight</c><00:00:30.320><c> of</c><00:00:30.400><c> Hormuz,</c>", "start": 29.279, "duration": 2.1499999999999986}
+{"text": "we report on the Straight of Hormuz,", "start": 31.429, "duration": 0.010000000000001563}
+{"text": "we report on the Straight of Hormuz, that<00:00:31.679><c> narrow</c><00:00:32.079><c> waterway</c><00:00:32.640><c> on</c><00:00:32.880><c> Iran's</c><00:00:33.440><c> southern</c>", "start": 31.439, "duration": 2.3909999999999982}
+{"text": "that narrow waterway on Iran's southern", "start": 33.83, "duration": 0.010000000000005116}
+{"text": "that narrow waterway on Iran's southern coast.<00:00:34.640><c> It</c><00:00:34.880><c> connects</c><00:00:35.120><c> the</c><00:00:35.360><c> oil</c><00:00:35.680><c> richch</c>", "start": 33.84, "duration": 2.069999999999993}
+{"text": "coast. It connects the oil richch", "start": 35.91, "duration": 0.010000000000005116}
+{"text": "coast. It connects the oil richch countries<00:00:36.320><c> of</c><00:00:36.480><c> the</c><00:00:36.640><c> Persian</c><00:00:37.040><c> Gulf</c><00:00:37.360><c> to</c><00:00:37.600><c> the</c>", "start": 35.92, "duration": 1.9099999999999966}
+{"text": "countries of the Persian Gulf to the", "start": 37.83, "duration": 0.010000000000005116}
+{"text": "countries of the Persian Gulf to the rest<00:00:38.000><c> of</c><00:00:38.160><c> the</c><00:00:38.320><c> world.</c><00:00:39.280><c> The</c><00:00:39.440><c> ships</c><00:00:39.760><c> that</c><00:00:40.000><c> pass</c>", "start": 37.84, "duration": 2.388999999999996}
+{"text": "rest of the world. The ships that pass", "start": 40.229, "duration": 0.00999999999999801}
+{"text": "rest of the world. The ships that pass through<00:00:40.399><c> it</c><00:00:40.719><c> carry</c><00:00:41.040><c> a</c><00:00:41.280><c> fifth</c><00:00:41.680><c> of</c><00:00:41.840><c> the</c><00:00:42.000><c> world's</c>", "start": 40.239, "duration": 2.1500000000000057}
+{"text": "through it carry a fifth of the world's", "start": 42.389, "duration": 0.00999999999999801}
+{"text": "through it carry a fifth of the world's oil<00:00:42.960><c> and</c><00:00:43.280><c> a</c><00:00:43.520><c> significant</c><00:00:44.079><c> amount</c><00:00:44.480><c> of</c><00:00:44.640><c> natural</c>", "start": 42.399, "duration": 2.7109999999999985}
+{"text": "oil and a significant amount of natural", "start": 45.11, "duration": 0.00999999999999801}
+{"text": "oil and a significant amount of natural gas.<00:00:46.160><c> Now,</c><00:00:46.399><c> with</c><00:00:46.559><c> that</c><00:00:46.879><c> traffic</c><00:00:47.280><c> nearly</c>", "start": 45.12, "duration": 2.6300000000000026}
+{"text": "gas. Now, with that traffic nearly", "start": 47.75, "duration": 0.00999999999999801}
+{"text": "gas. Now, with that traffic nearly stopped<00:00:48.160><c> by</c><00:00:48.320><c> the</c><00:00:48.480><c> war</c><00:00:48.640><c> in</c><00:00:48.879><c> Iran,</c><00:00:49.520><c> the</c><00:00:49.760><c> world</c><00:00:49.920><c> is</c>", "start": 47.76, "duration": 2.3900000000000006}
+{"text": "stopped by the war in Iran, the world is", "start": 50.15, "duration": 0.00999999999999801}
+{"text": "stopped by the war in Iran, the world is beginning<00:00:50.480><c> to</c><00:00:50.640><c> feel</c><00:00:50.879><c> the</c><00:00:51.200><c> impact</c><00:00:51.920><c> from</c><00:00:52.239><c> energy</c>", "start": 50.16, "duration": 2.5490000000000066}
+{"text": "beginning to feel the impact from energy", "start": 52.709, "duration": 0.00999999999999801}
+{"text": "beginning to feel the impact from energy markets<00:00:53.280><c> to</c><00:00:53.600><c> national</c><00:00:54.079><c> economies.</c><00:00:55.360><c> You</c><00:00:55.680><c> can</c>", "start": 52.719, "duration": 3.030999999999999}
+{"text": "markets to national economies. You can", "start": 55.75, "duration": 0.00999999999999801}
+{"text": "markets to national economies. You can see<00:00:55.920><c> that</c><00:00:56.320><c> there's</c><00:00:56.640><c> a</c><00:00:56.800><c> lot</c><00:00:56.960><c> of</c><00:00:57.360><c> movement</c><00:00:57.760><c> here,</c>", "start": 55.76, "duration": 2.230000000000004}
+{"text": "see that there's a lot of movement here,", "start": 57.99, "duration": 0.00999999999999801}
+{"text": "see that there's a lot of movement here, right?", "start": 58.0, "duration": 0.6300000000000026}
+{"text": "right?", "start": 58.63, "duration": 0.00999999999999801}
+{"text": "right? &gt;&gt; We<00:00:58.800><c> spoke</c><00:00:59.039><c> with</c><00:00:59.199><c> Matt</c><00:00:59.520><c> Smith,</c><00:01:00.239><c> an</c><00:01:00.399><c> oil</c><00:01:00.719><c> market</c>", "start": 58.64, "duration": 2.388999999999996}
+{"text": "&gt;&gt; We spoke with Matt Smith, an oil market", "start": 61.028999999999996, "duration": 0.010000000000005116}
+{"text": "&gt;&gt; We spoke with Matt Smith, an oil market analyst<00:01:01.440><c> for</c><00:01:01.680><c> Kepler,</c><00:01:02.480><c> which</c><00:01:02.719><c> tracks</c><00:01:03.199><c> global</c>", "start": 61.039, "duration": 2.6310000000000002}
+{"text": "analyst for Kepler, which tracks global", "start": 63.67, "duration": 0.00999999999999801}
+{"text": "analyst for Kepler, which tracks global trade<00:01:04.000><c> and</c><00:01:04.320><c> shipping.</c><00:01:05.040><c> He</c><00:01:05.280><c> has</c><00:01:05.439><c> been</c><00:01:05.680><c> studying</c>", "start": 63.68, "duration": 2.469000000000001}
+{"text": "trade and shipping. He has been studying", "start": 66.149, "duration": 0.010000000000005116}
+{"text": "trade and shipping. He has been studying ship<00:01:06.479><c> movement</c><00:01:06.799><c> in</c><00:01:07.040><c> the</c><00:01:07.200><c> straight</c><00:01:07.439><c> of</c><00:01:07.600><c> Hormuz.</c>", "start": 66.159, "duration": 2.6299999999999955}
+{"text": "ship movement in the straight of Hormuz.", "start": 68.789, "duration": 0.010000000000005116}
+{"text": "ship movement in the straight of Hormuz. Smith<00:01:09.200><c> told</c><00:01:09.520><c> us</c><00:01:09.840><c> the</c><00:01:10.080><c> region</c><00:01:10.400><c> moves</c><00:01:10.720><c> millions</c>", "start": 68.799, "duration": 2.309999999999988}
+{"text": "Smith told us the region moves millions", "start": 71.109, "duration": 0.010000000000005116}
+{"text": "Smith told us the region moves millions of<00:01:11.280><c> barrels</c><00:01:11.680><c> of</c><00:01:11.840><c> oil</c><00:01:12.159><c> a</c><00:01:12.400><c> day.</c><00:01:13.119><c> For</c><00:01:13.360><c> most</c><00:01:13.760><c> Gulf</c>", "start": 71.119, "duration": 3.030000000000001}
+{"text": "of barrels of oil a day. For most Gulf", "start": 74.149, "duration": 0.010000000000005116}
+{"text": "of barrels of oil a day. For most Gulf states,<00:01:14.720><c> the</c><00:01:15.040><c> only</c><00:01:15.200><c> way</c><00:01:15.360><c> for</c><00:01:15.520><c> their</c><00:01:15.760><c> oil</c><00:01:16.080><c> to</c>", "start": 74.159, "duration": 2.1509999999999962}
+{"text": "states, the only way for their oil to", "start": 76.31, "duration": 0.009999999999990905}
+{"text": "states, the only way for their oil to reach<00:01:16.560><c> the</c><00:01:16.799><c> global</c><00:01:17.119><c> market</c><00:01:17.520><c> is</c><00:01:17.840><c> through</c><00:01:18.080><c> the</c>", "start": 76.32, "duration": 1.990000000000009}
+{"text": "reach the global market is through the", "start": 78.31, "duration": 0.009999999999990905}
+{"text": "reach the global market is through the strait.<00:01:19.040><c> So,</c><00:01:19.280><c> these</c><00:01:19.600><c> supplies</c><00:01:20.159><c> are</c><00:01:20.479><c> stuck</c>", "start": 78.32, "duration": 2.6300000000000097}
+{"text": "strait. So, these supplies are stuck", "start": 80.95, "duration": 0.010000000000005116}
+{"text": "strait. So, these supplies are stuck because<00:01:21.200><c> of</c><00:01:21.439><c> the</c><00:01:21.680><c> conflict.</c><00:01:22.479><c> But</c><00:01:22.799><c> Saudi</c>", "start": 80.96000000000001, "duration": 2.2299999999999898}
+{"text": "because of the conflict. But Saudi", "start": 83.19, "duration": 0.010000000000005116}
+{"text": "because of the conflict. But Saudi Arabia<00:01:23.680><c> benefits</c><00:01:24.240><c> from</c><00:01:24.560><c> decades</c><00:01:25.040><c> of</c><00:01:25.280><c> good</c>", "start": 83.2, "duration": 2.3100000000000023}
+{"text": "Arabia benefits from decades of good", "start": 85.51, "duration": 0.009999999999990905}
+{"text": "Arabia benefits from decades of good planning.", "start": 85.52, "duration": 0.9489999999999981}
+{"text": "planning.", "start": 86.469, "duration": 0.010000000000005116}
+{"text": "planning. &gt;&gt; Saudi<00:01:26.799><c> Arabia</c><00:01:27.200><c> is</c><00:01:27.360><c> a</c><00:01:27.520><c> relative</c><00:01:27.920><c> winner</c><00:01:28.240><c> from</c>", "start": 86.479, "duration": 1.9110000000000014}
+{"text": "&gt;&gt; Saudi Arabia is a relative winner from", "start": 88.39, "duration": 0.010000000000005116}
+{"text": "&gt;&gt; Saudi Arabia is a relative winner from this<00:01:28.640><c> situation</c><00:01:29.520><c> in</c><00:01:29.759><c> that</c><00:01:29.920><c> it</c><00:01:30.159><c> has</c><00:01:30.240><c> a</c><00:01:30.400><c> pipeline</c>", "start": 88.4, "duration": 2.388999999999996}
+{"text": "this situation in that it has a pipeline", "start": 90.789, "duration": 0.010000000000005116}
+{"text": "this situation in that it has a pipeline called<00:01:30.960><c> the</c><00:01:31.040><c> East</c><00:01:31.280><c> West</c><00:01:31.520><c> pipeline</c><00:01:32.320><c> that</c><00:01:32.640><c> was</c>", "start": 90.799, "duration": 1.9899999999999949}
+{"text": "called the East West pipeline that was", "start": 92.789, "duration": 0.010000000000005116}
+{"text": "called the East West pipeline that was built<00:01:33.119><c> for</c><00:01:33.280><c> exactly</c><00:01:33.680><c> this</c><00:01:34.000><c> reason.</c><00:01:34.400><c> It</c><00:01:34.640><c> was</c>", "start": 92.799, "duration": 1.9899999999999949}
+{"text": "built for exactly this reason. It was", "start": 94.789, "duration": 0.010000000000005116}
+{"text": "built for exactly this reason. It was concerned<00:01:35.040><c> about</c><00:01:35.200><c> the</c><00:01:35.360><c> straight</c><00:01:35.520><c> of</c><00:01:35.680><c> Hormuz</c>", "start": 94.799, "duration": 1.4309999999999832}
+{"text": "concerned about the straight of Hormuz", "start": 96.22999999999999, "duration": 0.010000000000019327}
+{"text": "concerned about the straight of Hormuz being<00:01:36.880><c> uh</c><00:01:37.040><c> this</c><00:01:37.200><c> choke</c><00:01:37.520><c> point</c><00:01:38.079><c> and</c><00:01:38.320><c> so</c><00:01:38.720><c> that</c>", "start": 96.24000000000001, "duration": 2.789999999999992}
+{"text": "being uh this choke point and so that", "start": 99.03, "duration": 0.009999999999990905}
+{"text": "being uh this choke point and so that pipe<00:01:39.360><c> goes</c><00:01:39.520><c> across</c><00:01:39.840><c> to</c><00:01:40.000><c> the</c><00:01:40.079><c> Red</c><00:01:40.320><c> Sea</c><00:01:40.720><c> to</c><00:01:40.960><c> Yanu</c>", "start": 99.03999999999999, "duration": 2.6300000000000097}
+{"text": "pipe goes across to the Red Sea to Yanu", "start": 101.67, "duration": 0.010000000000005116}
+{"text": "pipe goes across to the Red Sea to Yanu and<00:01:41.920><c> we're</c><00:01:42.079><c> starting</c><00:01:42.400><c> to</c><00:01:42.560><c> see</c><00:01:42.799><c> exports</c>", "start": 101.68, "duration": 1.5900000000000034}
+{"text": "and we're starting to see exports", "start": 103.27000000000001, "duration": 0.009999999999990905}
+{"text": "and we're starting to see exports picking<00:01:43.600><c> up</c><00:01:43.759><c> from</c><00:01:43.920><c> there</c><00:01:44.079><c> instead.</c><00:01:44.640><c> So</c>", "start": 103.28, "duration": 1.75}
+{"text": "picking up from there instead. So", "start": 105.03, "duration": 0.009999999999990905}
+{"text": "picking up from there instead. So essentially<00:01:45.439><c> Saudi</c><00:01:45.759><c> Arabia</c><00:01:46.159><c> is</c><00:01:46.399><c> able</c><00:01:46.560><c> to</c>", "start": 105.03999999999999, "duration": 1.7490000000000094}
+{"text": "essentially Saudi Arabia is able to", "start": 106.789, "duration": 0.010000000000005116}
+{"text": "essentially Saudi Arabia is able to reroute<00:01:47.280><c> its</c><00:01:47.600><c> crude</c><00:01:48.079><c> to</c><00:01:48.320><c> be</c><00:01:48.399><c> able</c><00:01:48.560><c> to</c><00:01:48.640><c> load</c><00:01:49.119><c> in</c>", "start": 106.799, "duration": 2.5509999999999877}
+{"text": "reroute its crude to be able to load in", "start": 109.35, "duration": 0.010000000000005116}
+{"text": "reroute its crude to be able to load in the<00:01:49.520><c> Red</c><00:01:49.759><c> Sea</c><00:01:50.320><c> whereas</c><00:01:50.640><c> the</c><00:01:50.799><c> likes</c><00:01:51.119><c> of</c><00:01:51.520><c> Iraq,</c>", "start": 109.36, "duration": 2.7890000000000015}
+{"text": "the Red Sea whereas the likes of Iraq,", "start": 112.149, "duration": 0.009999999999990905}
+{"text": "the Red Sea whereas the likes of Iraq, Kuwait<00:01:52.960><c> and</c><00:01:53.280><c> Qatar</c><00:01:53.920><c> don't</c><00:01:54.159><c> have</c><00:01:54.320><c> the</c><00:01:54.479><c> ability</c>", "start": 112.15899999999999, "duration": 2.6300000000000097}
+{"text": "Kuwait and Qatar don't have the ability", "start": 114.789, "duration": 0.010000000000005116}
+{"text": "Kuwait and Qatar don't have the ability to<00:01:54.960><c> do</c><00:01:55.119><c> that.</c><00:01:55.439><c> So</c><00:01:55.600><c> they're</c><00:01:55.759><c> having</c><00:01:55.920><c> to</c><00:01:56.079><c> shut</c><00:01:56.320><c> in</c>", "start": 114.799, "duration": 1.7509999999999906}
+{"text": "to do that. So they're having to shut in", "start": 116.55, "duration": 0.010000000000005116}
+{"text": "to do that. So they're having to shut in production.<00:01:57.280><c> Not</c><00:01:57.439><c> that</c><00:01:57.600><c> Saudi</c><00:01:57.920><c> Arabia</c><00:01:58.240><c> is</c><00:01:58.479><c> to</c>", "start": 116.56, "duration": 2.149000000000001}
+{"text": "production. Not that Saudi Arabia is to", "start": 118.709, "duration": 0.009999999999990905}
+{"text": "production. Not that Saudi Arabia is to able<00:01:58.960><c> to</c><00:01:59.280><c> completely</c><00:01:59.759><c> move</c><00:02:00.000><c> all</c><00:02:00.159><c> of</c><00:02:00.240><c> its</c>", "start": 118.719, "duration": 1.6700000000000017}
+{"text": "able to completely move all of its", "start": 120.389, "duration": 0.010000000000005116}
+{"text": "able to completely move all of its barrels<00:02:00.719><c> and</c><00:02:00.880><c> export</c><00:02:01.200><c> them</c><00:02:01.360><c> from</c><00:02:01.520><c> the</c><00:02:01.680><c> other</c>", "start": 120.399, "duration": 1.4309999999999974}
+{"text": "barrels and export them from the other", "start": 121.83, "duration": 0.010000000000005116}
+{"text": "barrels and export them from the other side.<00:02:02.399><c> Uh</c><00:02:02.640><c> but</c><00:02:02.799><c> it</c><00:02:02.960><c> it</c><00:02:03.280><c> can</c><00:02:03.520><c> do</c><00:02:04.240><c> nearly</c><00:02:04.719><c> 4</c>", "start": 121.84, "duration": 3.030000000000001}
+{"text": "side. Uh but it it can do nearly 4", "start": 124.87, "duration": 0.009999999999990905}
+{"text": "side. Uh but it it can do nearly 4 million<00:02:05.119><c> barrels</c><00:02:05.439><c> a</c><00:02:05.680><c> day.</c>", "start": 124.88, "duration": 1.75}
+{"text": "million barrels a day.", "start": 126.63, "duration": 0.010000000000005116}
+{"text": "million barrels a day. &gt;&gt; How<00:02:06.799><c> would</c><00:02:06.960><c> you</c><00:02:07.119><c> characterize</c><00:02:07.759><c> what's</c>", "start": 126.64, "duration": 1.4299999999999926}
+{"text": "&gt;&gt; How would you characterize what's", "start": 128.07, "duration": 0.010000000000019327}
+{"text": "&gt;&gt; How would you characterize what's happening<00:02:08.319><c> in</c><00:02:08.479><c> the</c><00:02:08.640><c> street</c><00:02:08.800><c> of</c><00:02:08.879><c> Hormuz</c><00:02:09.440><c> today?</c>", "start": 128.08, "duration": 2.3089999999999975}
+{"text": "happening in the street of Hormuz today?", "start": 130.389, "duration": 0.009999999999990905}
+{"text": "happening in the street of Hormuz today? Well,<00:02:10.720><c> we</c><00:02:10.959><c> are</c><00:02:11.120><c> seeing</c><00:02:11.280><c> a</c><00:02:11.599><c> collapse</c><00:02:12.239><c> of</c><00:02:12.480><c> a</c>", "start": 130.399, "duration": 2.2309999999999945}
+{"text": "Well, we are seeing a collapse of a", "start": 132.63, "duration": 0.009999999999990905}
+{"text": "Well, we are seeing a collapse of a keystone<00:02:13.200><c> assumption</c><00:02:14.400><c> in</c><00:02:15.040><c> economics</c><00:02:15.599><c> and</c>", "start": 132.64, "duration": 3.669000000000011}
+{"text": "keystone assumption in economics and", "start": 136.309, "duration": 0.009999999999990905}
+{"text": "keystone assumption in economics and energy<00:02:16.720><c> markets.</c><00:02:18.000><c> And</c><00:02:18.239><c> if</c><00:02:18.480><c> Hormuz</c><00:02:19.040><c> is</c><00:02:19.120><c> shut</c>", "start": 136.319, "duration": 3.031000000000006}
+{"text": "energy markets. And if Hormuz is shut", "start": 139.35, "duration": 0.010000000000019327}
+{"text": "energy markets. And if Hormuz is shut for<00:02:19.520><c> a</c><00:02:19.760><c> month,</c><00:02:20.720><c> one</c><00:02:20.959><c> of</c><00:02:21.040><c> the</c><00:02:21.200><c> most</c><00:02:21.440><c> important</c>", "start": 139.36, "duration": 2.4699999999999704}
+{"text": "for a month, one of the most important", "start": 141.82999999999998, "duration": 0.010000000000019327}
+{"text": "for a month, one of the most important bedrock<00:02:23.200><c> assumptions</c><00:02:23.840><c> and</c><00:02:24.080><c> how</c><00:02:25.280><c> the</c><00:02:25.599><c> economy</c>", "start": 141.84, "duration": 4.150000000000006}
+{"text": "bedrock assumptions and how the economy", "start": 145.99, "duration": 0.009999999999990905}
+{"text": "bedrock assumptions and how the economy works,<00:02:26.319><c> the</c><00:02:26.560><c> global</c><00:02:26.800><c> economy</c><00:02:27.120><c> works</c><00:02:27.360><c> and</c>", "start": 146.0, "duration": 1.509999999999991}
+{"text": "works, the global economy works and", "start": 147.51, "duration": 0.010000000000019327}
+{"text": "works, the global economy works and about<00:02:27.840><c> security</c><00:02:28.319><c> will</c><00:02:28.560><c> have</c><00:02:28.720><c> collapsed.</c>", "start": 147.52, "duration": 2.2299999999999898}
+{"text": "about security will have collapsed.", "start": 149.75, "duration": 0.009999999999990905}
+{"text": "about security will have collapsed. &gt;&gt; Bob<00:02:30.080><c> McN</c><00:02:30.640><c> was</c><00:02:30.800><c> an</c><00:02:31.040><c> energy</c><00:02:31.360><c> adviser</c><00:02:31.840><c> to</c>", "start": 149.76, "duration": 2.230000000000018}
+{"text": "&gt;&gt; Bob McN was an energy adviser to", "start": 151.99, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; Bob McN was an energy adviser to President<00:02:32.400><c> George</c><00:02:32.879><c> W.</c><00:02:33.200><c> Bush</c><00:02:33.599><c> during</c><00:02:33.840><c> the</c><00:02:34.000><c> Iraq</c>", "start": 152.0, "duration": 2.469999999999999}
+{"text": "President George W. Bush during the Iraq", "start": 154.47, "duration": 0.009999999999990905}
+{"text": "President George W. Bush during the Iraq war,<00:02:35.040><c> who</c><00:02:35.280><c> now</c><00:02:35.519><c> advises</c><00:02:36.160><c> clients</c><00:02:36.640><c> on</c><00:02:36.959><c> oil</c><00:02:37.200><c> and</c>", "start": 154.48, "duration": 2.950000000000017}
+{"text": "war, who now advises clients on oil and", "start": 157.43, "duration": 0.009999999999990905}
+{"text": "war, who now advises clients on oil and gas<00:02:37.760><c> markets.</c><00:02:38.640><c> He</c><00:02:38.879><c> told</c><00:02:39.200><c> us</c><00:02:39.440><c> the</c><00:02:39.680><c> disruption</c>", "start": 157.44, "duration": 2.9499999999999886}
+{"text": "gas markets. He told us the disruption", "start": 160.39, "duration": 0.010000000000019327}
+{"text": "gas markets. He told us the disruption is<00:02:40.720><c> already</c><00:02:41.200><c> having</c><00:02:41.519><c> global</c><00:02:42.080><c> impacts,</c>", "start": 160.4, "duration": 2.5490000000000066}
+{"text": "is already having global impacts,", "start": 162.949, "duration": 0.009999999999990905}
+{"text": "is already having global impacts, including<00:02:43.599><c> in</c><00:02:43.920><c> Russia.</c>", "start": 162.959, "duration": 1.9099999999999966}
+{"text": "including in Russia.", "start": 164.869, "duration": 0.009999999999990905}
+{"text": "including in Russia. &gt;&gt; This<00:02:45.200><c> conflict</c><00:02:45.680><c> and</c><00:02:45.840><c> the</c><00:02:46.080><c> oil</c><00:02:46.319><c> price</c><00:02:46.720><c> increase</c>", "start": 164.879, "duration": 2.4710000000000036}
+{"text": "&gt;&gt; This conflict and the oil price increase", "start": 167.35, "duration": 0.010000000000019327}
+{"text": "&gt;&gt; This conflict and the oil price increase has<00:02:47.680><c> done</c><00:02:47.920><c> two</c><00:02:48.239><c> things</c><00:02:48.480><c> to</c><00:02:48.720><c> help</c><00:02:48.959><c> Putin.</c><00:02:50.000><c> One,</c>", "start": 167.36, "duration": 2.948999999999984}
+{"text": "has done two things to help Putin. One,", "start": 170.309, "duration": 0.010000000000019327}
+{"text": "has done two things to help Putin. One, it's<00:02:50.560><c> lifted</c><00:02:50.959><c> the</c><00:02:51.280><c> overall</c><00:02:51.760><c> price</c><00:02:52.000><c> of</c><00:02:52.160><c> crude</c>", "start": 170.31900000000002, "duration": 2.150999999999982}
+{"text": "it's lifted the overall price of crude", "start": 172.47, "duration": 0.009999999999990905}
+{"text": "it's lifted the overall price of crude oil.<00:02:53.280><c> And</c><00:02:53.519><c> secondly,</c><00:02:54.080><c> it's</c><00:02:54.800><c> eliminated</c><00:02:55.440><c> that</c>", "start": 172.48, "duration": 3.2700000000000102}
+{"text": "oil. And secondly, it's eliminated that", "start": 175.75, "duration": 0.009999999999990905}
+{"text": "oil. And secondly, it's eliminated that discount,<00:02:56.959><c> that</c><00:02:57.200><c> penalty</c><00:02:57.760><c> price</c><00:02:58.160><c> that</c><00:02:58.480><c> he</c><00:02:58.640><c> had</c>", "start": 175.76, "duration": 3.030000000000001}
+{"text": "discount, that penalty price that he had", "start": 178.79, "duration": 0.010000000000019327}
+{"text": "discount, that penalty price that he had to<00:02:58.959><c> pay.</c><00:02:59.760><c> Now</c><00:03:00.080><c> everybody</c><00:03:00.480><c> wants</c><00:03:00.720><c> his</c><00:03:00.959><c> oil.</c><00:03:01.360><c> And</c>", "start": 178.8, "duration": 2.7889999999999873}
+{"text": "to pay. Now everybody wants his oil. And", "start": 181.589, "duration": 0.009999999999990905}
+{"text": "to pay. Now everybody wants his oil. And yeah,<00:03:01.920><c> Christmas</c><00:03:02.319><c> came</c><00:03:02.560><c> early</c><00:03:02.800><c> for</c><00:03:02.959><c> Putin.</c><00:03:03.280><c> So</c>", "start": 181.599, "duration": 1.9099999999999966}
+{"text": "yeah, Christmas came early for Putin. So", "start": 183.509, "duration": 0.010000000000019327}
+{"text": "yeah, Christmas came early for Putin. So Putin<00:03:03.920><c> may</c><00:03:04.080><c> be</c><00:03:04.239><c> benefiting</c><00:03:04.879><c> temporarily</c><00:03:05.920><c> from</c>", "start": 183.519, "duration": 2.6299999999999955}
+{"text": "Putin may be benefiting temporarily from", "start": 186.149, "duration": 0.009999999999990905}
+{"text": "Putin may be benefiting temporarily from a<00:03:06.480><c> budget</c><00:03:06.879><c> windfall,</c><00:03:08.080><c> but</c><00:03:08.640><c> long-term</c><00:03:09.920><c> if</c><00:03:10.480><c> Iran</c>", "start": 186.159, "duration": 5.671000000000021}
+{"text": "a budget windfall, but long-term if Iran", "start": 191.83, "duration": 0.009999999999990905}
+{"text": "a budget windfall, but long-term if Iran uh<00:03:12.480><c> stops</c><00:03:12.800><c> being</c><00:03:13.120><c> the</c><00:03:13.280><c> world's</c><00:03:13.840><c> top</c><00:03:14.159><c> sponsor</c>", "start": 191.84, "duration": 2.710000000000008}
+{"text": "uh stops being the world's top sponsor", "start": 194.55, "duration": 0.009999999999990905}
+{"text": "uh stops being the world's top sponsor as<00:03:14.720><c> terror</c><00:03:15.040><c> and</c><00:03:15.360><c> even</c><00:03:16.319><c> uh</c><00:03:16.640><c> becomes</c><00:03:16.959><c> a</c><00:03:17.120><c> friend</c>", "start": 194.56, "duration": 2.710000000000008}
+{"text": "as terror and even uh becomes a friend", "start": 197.27, "duration": 0.009999999999990905}
+{"text": "as terror and even uh becomes a friend of<00:03:17.440><c> the</c><00:03:17.599><c> United</c><00:03:17.840><c> States</c><00:03:18.000><c> and</c><00:03:18.239><c> Israel</c><00:03:18.480><c> and</c>", "start": 197.28, "duration": 1.3499999999999943}
+{"text": "of the United States and Israel and", "start": 198.63, "duration": 0.009999999999990905}
+{"text": "of the United States and Israel and other<00:03:18.800><c> countries,</c><00:03:19.040><c> which</c><00:03:19.280><c> I</c><00:03:19.440><c> I</c><00:03:19.920><c> hope</c><00:03:20.319><c> and</c>", "start": 198.64, "duration": 1.990000000000009}
+{"text": "other countries, which I I hope and", "start": 200.63, "duration": 0.009999999999990905}
+{"text": "other countries, which I I hope and expect<00:03:21.280><c> eventually,</c><00:03:22.239><c> um</c><00:03:22.400><c> that's</c><00:03:22.560><c> a</c><00:03:22.800><c> bad</c><00:03:22.959><c> day</c>", "start": 200.64, "duration": 2.390000000000015}
+{"text": "expect eventually, um that's a bad day", "start": 203.03, "duration": 0.009999999999990905}
+{"text": "expect eventually, um that's a bad day for<00:03:23.280><c> Russia.</c><00:03:23.760><c> Very</c><00:03:24.000><c> bad</c><00:03:24.159><c> day</c><00:03:24.319><c> for</c><00:03:24.560><c> for</c><00:03:24.800><c> Putin.</c>", "start": 203.04, "duration": 2.4690000000000225}
+{"text": "for Russia. Very bad day for for Putin.", "start": 205.50900000000001, "duration": 0.009999999999990905}
+{"text": "for Russia. Very bad day for for Putin. But<00:03:25.920><c> today</c>", "start": 205.519, "duration": 1.9110000000000014}
+{"text": "But today", "start": 207.43, "duration": 0.009999999999990905}
+{"text": "But today uh<00:03:27.599><c> as</c><00:03:27.920><c> things</c><00:03:28.480><c> stand</c><00:03:28.959><c> in</c><00:03:29.200><c> the</c><00:03:29.360><c> street</c><00:03:29.519><c> of</c>", "start": 207.44, "duration": 2.230000000000018}
+{"text": "uh as things stand in the street of", "start": 209.67000000000002, "duration": 0.009999999999990905}
+{"text": "uh as things stand in the street of Hormuz,<00:03:30.319><c> I've</c><00:03:30.560><c> seen</c><00:03:30.720><c> it</c><00:03:30.879><c> said</c><00:03:31.040><c> that</c><00:03:31.200><c> Russia</c><00:03:31.599><c> is</c>", "start": 209.68, "duration": 2.2299999999999898}
+{"text": "Hormuz, I've seen it said that Russia is", "start": 211.91, "duration": 0.010000000000019327}
+{"text": "Hormuz, I've seen it said that Russia is the<00:03:32.159><c> clear</c><00:03:32.400><c> winner</c><00:03:32.720><c> in</c><00:03:32.959><c> this</c><00:03:33.120><c> war.</c>", "start": 211.92000000000002, "duration": 2.069999999999993}
+{"text": "the clear winner in this war.", "start": 213.99, "duration": 0.009999999999990905}
+{"text": "the clear winner in this war. &gt;&gt; Putin,<00:03:34.400><c> no</c><00:03:34.640><c> question,</c><00:03:34.879><c> is</c><00:03:35.120><c> benefiting</c><00:03:35.599><c> from</c>", "start": 214.0, "duration": 2.3899999999999864}
+{"text": "&gt;&gt; Putin, no question, is benefiting from", "start": 216.39, "duration": 0.010000000000019327}
+{"text": "&gt;&gt; Putin, no question, is benefiting from much<00:03:36.720><c> greater</c><00:03:36.959><c> revenue</c><00:03:37.280><c> right</c><00:03:37.519><c> now.</c><00:03:37.680><c> Y</c>", "start": 216.4, "duration": 2.1500000000000057}
+{"text": "much greater revenue right now. Y", "start": 218.55, "duration": 0.009999999999990905}
+{"text": "much greater revenue right now. Y &gt;&gt; I<00:03:38.799><c> want</c><00:03:38.879><c> to</c><00:03:38.959><c> ask</c><00:03:39.120><c> you</c><00:03:39.280><c> about</c><00:03:39.599><c> China.</c><00:03:40.400><c> About</c>", "start": 218.56, "duration": 2.069999999999993}
+{"text": "&gt;&gt; I want to ask you about China. About", "start": 220.63, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; I want to ask you about China. About half<00:03:40.959><c> of</c><00:03:41.200><c> China's</c><00:03:42.319><c> imported</c><00:03:42.879><c> oil</c><00:03:43.280><c> comes</c>", "start": 220.64, "duration": 2.9490000000000123}
+{"text": "half of China's imported oil comes", "start": 223.589, "duration": 0.009999999999990905}
+{"text": "half of China's imported oil comes through<00:03:44.239><c> the</c><00:03:44.560><c> strait.</c><00:03:45.040><c> What</c><00:03:45.200><c> does</c><00:03:45.360><c> this</c><00:03:45.519><c> mean</c>", "start": 223.599, "duration": 2.0710000000000264}
+{"text": "through the strait. What does this mean", "start": 225.67000000000002, "duration": 0.009999999999990905}
+{"text": "through the strait. What does this mean for<00:03:45.920><c> their</c><00:03:46.159><c> economy?</c>", "start": 225.68, "duration": 1.8290000000000077}
+{"text": "for their economy?", "start": 227.50900000000001, "duration": 0.009999999999990905}
+{"text": "for their economy? &gt;&gt; This<00:03:47.680><c> is</c><00:03:47.920><c> a</c><00:03:48.080><c> a</c><00:03:48.239><c> real</c><00:03:48.480><c> gut</c><00:03:48.720><c> punch</c><00:03:49.040><c> for</c><00:03:49.280><c> their</c>", "start": 227.519, "duration": 1.990000000000009}
+{"text": "&gt;&gt; This is a a real gut punch for their", "start": 229.50900000000001, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; This is a a real gut punch for their economy.<00:03:50.159><c> China</c><00:03:50.640><c> was</c><00:03:50.879><c> getting</c><00:03:51.040><c> a</c><00:03:51.280><c> sweetheart</c>", "start": 229.519, "duration": 2.390999999999991}
+{"text": "economy. China was getting a sweetheart", "start": 231.91, "duration": 0.010000000000019327}
+{"text": "economy. China was getting a sweetheart deal<00:03:52.720><c> from</c><00:03:53.040><c> Iran</c><00:03:54.239><c> and</c><00:03:54.959><c> uh</c><00:03:55.120><c> and</c><00:03:55.519><c> depending</c>", "start": 231.92000000000002, "duration": 4.228999999999985}
+{"text": "deal from Iran and uh and depending", "start": 236.149, "duration": 0.009999999999990905}
+{"text": "deal from Iran and uh and depending heavily<00:03:56.640><c> on</c><00:03:56.959><c> flow</c><00:03:57.280><c> from</c><00:03:57.519><c> Hormuz.</c><00:03:58.720><c> The</c><00:03:58.959><c> thought</c>", "start": 236.159, "duration": 2.951000000000022}
+{"text": "heavily on flow from Hormuz. The thought", "start": 239.11, "duration": 0.009999999999990905}
+{"text": "heavily on flow from Hormuz. The thought that<00:03:59.280><c> that</c><00:03:59.519><c> could</c><00:03:59.680><c> be</c><00:04:00.239><c> disrupted</c><00:04:00.799><c> for</c><00:04:00.959><c> a</c>", "start": 239.12, "duration": 1.990000000000009}
+{"text": "that that could be disrupted for a", "start": 241.11, "duration": 0.009999999999990905}
+{"text": "that that could be disrupted for a prolonged<00:04:01.599><c> period</c><00:04:02.000><c> is</c><00:04:02.400><c> devastating</c><00:04:02.879><c> for</c><00:04:03.120><c> the</c>", "start": 241.12, "duration": 2.1500000000000057}
+{"text": "prolonged period is devastating for the", "start": 243.27, "duration": 0.009999999999990905}
+{"text": "prolonged period is devastating for the Chinese<00:04:03.680><c> economy.</c><00:04:04.239><c> Now,</c><00:04:05.200><c> they</c><00:04:05.599><c> have</c>", "start": 243.28, "duration": 3.3499999999999943}
+{"text": "Chinese economy. Now, they have", "start": 246.63, "duration": 0.009999999999990905}
+{"text": "Chinese economy. Now, they have stockpiled<00:04:07.360><c> a</c><00:04:07.680><c> lot</c><00:04:07.760><c> of</c><00:04:07.920><c> oil</c><00:04:08.319><c> and</c><00:04:08.480><c> so</c><00:04:08.640><c> they're</c>", "start": 246.64, "duration": 2.149000000000001}
+{"text": "stockpiled a lot of oil and so they're", "start": 248.789, "duration": 0.010000000000019327}
+{"text": "stockpiled a lot of oil and so they're pretty<00:04:09.040><c> well</c><00:04:09.200><c> supplied</c><00:04:09.599><c> in</c><00:04:09.760><c> terms</c><00:04:09.920><c> of</c>", "start": 248.799, "duration": 1.2709999999999866}
+{"text": "pretty well supplied in terms of", "start": 250.07, "duration": 0.010000000000019327}
+{"text": "pretty well supplied in terms of physical<00:04:10.480><c> supply,</c><00:04:11.040><c> but</c><00:04:11.280><c> the</c><00:04:11.519><c> economic</c><00:04:12.000><c> cost</c>", "start": 250.08, "duration": 2.1489999999999725}
+{"text": "physical supply, but the economic cost", "start": 252.22899999999998, "duration": 0.010000000000019327}
+{"text": "physical supply, but the economic cost will<00:04:12.480><c> be</c><00:04:12.640><c> quite</c><00:04:12.879><c> sharp</c><00:04:13.120><c> to</c><00:04:13.280><c> them.</c>", "start": 252.239, "duration": 2.6299999999999955}
+{"text": "will be quite sharp to them.", "start": 254.869, "duration": 0.009999999999990905}
+{"text": "will be quite sharp to them. &gt;&gt; Even<00:04:15.280><c> so,</c><00:04:15.760><c> China</c><00:04:16.160><c> is</c><00:04:16.479><c> still</c><00:04:16.720><c> benefiting</c><00:04:17.199><c> from</c>", "start": 254.879, "duration": 2.630000000000024}
+{"text": "&gt;&gt; Even so, China is still benefiting from", "start": 257.509, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; Even so, China is still benefiting from its<00:04:17.759><c> relationship</c><00:04:18.320><c> with</c><00:04:18.639><c> Iran.</c><00:04:19.519><c> Matt</c><00:04:19.840><c> Smith</c>", "start": 257.519, "duration": 2.630999999999972}
+{"text": "its relationship with Iran. Matt Smith", "start": 260.15, "duration": 0.010000000000047748}
+{"text": "its relationship with Iran. Matt Smith at<00:04:20.320><c> Kepler</c><00:04:20.880><c> told</c><00:04:21.280><c> us</c><00:04:21.440><c> that</c><00:04:21.759><c> Iran</c><00:04:22.160><c> has</c>", "start": 260.16, "duration": 2.308999999999969}
+{"text": "at Kepler told us that Iran has", "start": 262.469, "duration": 0.009999999999990905}
+{"text": "at Kepler told us that Iran has continued<00:04:22.960><c> to</c><00:04:23.120><c> sneak</c><00:04:23.520><c> oil</c><00:04:23.840><c> out</c><00:04:24.080><c> of</c><00:04:24.160><c> the</c>", "start": 262.479, "duration": 1.9110000000000014}
+{"text": "continued to sneak oil out of the", "start": 264.39, "duration": 0.009999999999990905}
+{"text": "continued to sneak oil out of the straight.<00:04:25.120><c> He</c><00:04:25.360><c> says</c><00:04:25.600><c> they've</c><00:04:25.919><c> done</c><00:04:26.080><c> it</c><00:04:26.240><c> by</c>", "start": 264.4, "duration": 2.150000000000034}
+{"text": "straight. He says they've done it by", "start": 266.55, "duration": 0.009999999999990905}
+{"text": "straight. He says they've done it by turning<00:04:26.880><c> off</c><00:04:27.040><c> their</c><00:04:27.280><c> ship's</c><00:04:27.759><c> transponders</c>", "start": 266.56, "duration": 2.1499999999999773}
+{"text": "turning off their ship's transponders", "start": 268.71, "duration": 0.010000000000047748}
+{"text": "turning off their ship's transponders that<00:04:29.040><c> show</c><00:04:29.280><c> their</c><00:04:29.600><c> location,</c><00:04:30.560><c> passing</c>", "start": 268.72, "duration": 2.2299999999999613}
+{"text": "that show their location, passing", "start": 270.95, "duration": 0.009999999999990905}
+{"text": "that show their location, passing through<00:04:31.199><c> the</c><00:04:31.360><c> straight</c><00:04:31.840><c> undetected</c><00:04:32.880><c> and</c>", "start": 270.96, "duration": 2.229000000000042}
+{"text": "through the straight undetected and", "start": 273.189, "duration": 0.009999999999990905}
+{"text": "through the straight undetected and sending<00:04:33.520><c> most</c><00:04:33.759><c> of</c><00:04:33.919><c> the</c><00:04:34.080><c> crude</c><00:04:34.400><c> oil</c><00:04:34.720><c> on</c><00:04:34.960><c> board</c>", "start": 273.199, "duration": 2.3910000000000196}
+{"text": "sending most of the crude oil on board", "start": 275.59000000000003, "duration": 0.009999999999990905}
+{"text": "sending most of the crude oil on board straight<00:04:35.919><c> to</c><00:04:36.160><c> China.</c><00:04:37.199><c> That</c><00:04:37.440><c> oil</c><00:04:37.680><c> is</c><00:04:37.840><c> going</c><00:04:38.000><c> to</c>", "start": 275.6, "duration": 2.5499999999999545}
+{"text": "straight to China. That oil is going to", "start": 278.15, "duration": 0.009999999999990905}
+{"text": "straight to China. That oil is going to China.", "start": 278.15999999999997, "duration": 0.3900000000000432}
+{"text": "China.", "start": 278.55, "duration": 0.009999999999990905}
+{"text": "China. &gt;&gt; Yeah.", "start": 278.56, "duration": 1.2699999999999818}
+{"text": "&gt;&gt; Yeah.", "start": 279.83, "duration": 0.010000000000047748}
+{"text": "&gt;&gt; Yeah. &gt;&gt; Let's<00:04:40.080><c> talk</c><00:04:40.240><c> about</c><00:04:40.479><c> India.</c><00:04:41.199><c> India</c><00:04:41.520><c> had</c><00:04:41.759><c> been</c>", "start": 279.84000000000003, "duration": 2.06899999999996}
+{"text": "&gt;&gt; Let's talk about India. India had been", "start": 281.909, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; Let's talk about India. India had been under<00:04:42.240><c> significant</c><00:04:42.639><c> pressure</c><00:04:42.880><c> from</c><00:04:43.120><c> the</c><00:04:43.280><c> US</c>", "start": 281.919, "duration": 1.5910000000000082}
+{"text": "under significant pressure from the US", "start": 283.51, "duration": 0.009999999999990905}
+{"text": "under significant pressure from the US to<00:04:43.680><c> stop</c><00:04:43.919><c> buying</c><00:04:44.240><c> Russian</c><00:04:44.560><c> oil.</c><00:04:45.280><c> What's</c><00:04:45.600><c> the</c>", "start": 283.52, "duration": 2.229000000000042}
+{"text": "to stop buying Russian oil. What's the", "start": 285.749, "duration": 0.009999999999990905}
+{"text": "to stop buying Russian oil. What's the case<00:04:46.000><c> now?</c><00:04:46.880><c> India</c><00:04:47.520><c> overall</c><00:04:48.479><c> is</c><00:04:48.960><c> hugely</c>", "start": 285.759, "duration": 3.6709999999999923}
+{"text": "case now? India overall is hugely", "start": 289.43, "duration": 0.009999999999990905}
+{"text": "case now? India overall is hugely dependent<00:04:49.840><c> on</c><00:04:50.479><c> uh</c><00:04:51.120><c> hormuse</c><00:04:51.680><c> flows.</c><00:04:52.400><c> It</c><00:04:52.639><c> does</c>", "start": 289.44, "duration": 3.430000000000007}
+{"text": "dependent on uh hormuse flows. It does", "start": 292.87, "duration": 0.009999999999990905}
+{"text": "dependent on uh hormuse flows. It does not<00:04:53.040><c> have</c><00:04:53.600><c> extensive</c><00:04:54.080><c> strategic</c><00:04:54.560><c> stocks</c><00:04:54.960><c> like</c>", "start": 292.88, "duration": 2.309000000000026}
+{"text": "not have extensive strategic stocks like", "start": 295.189, "duration": 0.009999999999990905}
+{"text": "not have extensive strategic stocks like China<00:04:55.520><c> does</c><00:04:55.840><c> like</c><00:04:56.000><c> the</c><00:04:56.160><c> United</c><00:04:56.400><c> States</c><00:04:56.720><c> does.</c>", "start": 295.199, "duration": 2.1510000000000105}
+{"text": "China does like the United States does.", "start": 297.35, "duration": 0.009999999999990905}
+{"text": "China does like the United States does. India<00:04:57.840><c> also</c><00:04:58.240><c> requires</c><00:04:58.960><c> liqufied</c><00:04:59.600><c> petroleum</c>", "start": 297.36, "duration": 2.7099999999999795}
+{"text": "India also requires liqufied petroleum", "start": 300.07, "duration": 0.009999999999990905}
+{"text": "India also requires liqufied petroleum gas.<00:05:00.400><c> It's</c><00:05:00.639><c> cooking</c><00:05:00.960><c> fuel.</c><00:05:01.919><c> Families</c><00:05:02.400><c> cook</c>", "start": 300.08, "duration": 3.0300000000000296}
+{"text": "gas. It's cooking fuel. Families cook", "start": 303.11, "duration": 0.009999999999990905}
+{"text": "gas. It's cooking fuel. Families cook with<00:05:03.440><c> LPG</c><00:05:04.080><c> liqufied</c><00:05:04.479><c> petroleum</c><00:05:04.880><c> gas</c><00:05:05.120><c> that</c>", "start": 303.12, "duration": 2.1499999999999773}
+{"text": "with LPG liqufied petroleum gas that", "start": 305.27, "duration": 0.009999999999990905}
+{"text": "with LPG liqufied petroleum gas that comes<00:05:05.440><c> from</c><00:05:05.600><c> Hormuz</c><00:05:06.080><c> and</c><00:05:06.160><c> they</c><00:05:06.320><c> don't</c><00:05:06.479><c> have</c>", "start": 305.28, "duration": 1.3490000000000464}
+{"text": "comes from Hormuz and they don't have", "start": 306.629, "duration": 0.009999999999990905}
+{"text": "comes from Hormuz and they don't have big<00:05:06.800><c> stock</c><00:05:07.039><c> piles.</c><00:05:07.600><c> So</c><00:05:07.759><c> for</c><00:05:08.000><c> India</c><00:05:08.320><c> this</c><00:05:08.560><c> is</c><00:05:08.639><c> an</c>", "start": 306.639, "duration": 2.2309999999999945}
+{"text": "big stock piles. So for India this is an", "start": 308.87, "duration": 0.009999999999990905}
+{"text": "big stock piles. So for India this is an acute<00:05:09.440><c> crisis.</c>", "start": 308.88, "duration": 1.5889999999999986}
+{"text": "acute crisis.", "start": 310.469, "duration": 0.009999999999990905}
+{"text": "acute crisis. &gt;&gt; In<00:05:10.639><c> other</c><00:05:10.880><c> words,</c><00:05:11.199><c> what's</c><00:05:11.600><c> happening</c><00:05:11.840><c> in</c><00:05:12.000><c> the</c>", "start": 310.479, "duration": 1.7510000000000332}
+{"text": "&gt;&gt; In other words, what's happening in the", "start": 312.23, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; In other words, what's happening in the street<00:05:12.400><c> of</c><00:05:12.560><c> Hormuz</c><00:05:13.360><c> impacts</c><00:05:13.919><c> the</c><00:05:14.160><c> entire</c>", "start": 312.24, "duration": 2.4699999999999704}
+{"text": "street of Hormuz impacts the entire", "start": 314.71, "duration": 0.010000000000047748}
+{"text": "street of Hormuz impacts the entire world.<00:05:15.520><c> In</c><00:05:15.759><c> the</c><00:05:15.919><c> United</c><00:05:16.320><c> States,</c><00:05:17.039><c> gas</c><00:05:17.360><c> prices</c>", "start": 314.72, "duration": 3.109999999999957}
+{"text": "world. In the United States, gas prices", "start": 317.83, "duration": 0.009999999999990905}
+{"text": "world. In the United States, gas prices have<00:05:18.160><c> already</c><00:05:18.560><c> jumped</c><00:05:18.960><c> by</c><00:05:19.280><c> more</c><00:05:19.440><c> than</c><00:05:19.759><c> 65</c>", "start": 317.84, "duration": 2.4700000000000273}
+{"text": "have already jumped by more than 65", "start": 320.31, "duration": 0.009999999999990905}
+{"text": "have already jumped by more than 65 cents<00:05:20.639><c> a</c><00:05:20.880><c> gallon</c><00:05:21.280><c> since</c><00:05:21.520><c> the</c><00:05:21.759><c> war</c><00:05:22.080><c> started.</c>", "start": 320.32, "duration": 2.709000000000003}
+{"text": "cents a gallon since the war started.", "start": 323.029, "duration": 0.009999999999990905}
+{"text": "cents a gallon since the war started. And<00:05:23.199><c> in</c><00:05:23.440><c> Asia,</c><00:05:24.080><c> which</c><00:05:24.320><c> gets</c><00:05:24.560><c> most</c><00:05:24.800><c> of</c><00:05:24.960><c> its</c><00:05:25.280><c> oil</c>", "start": 323.039, "duration": 2.5509999999999877}
+{"text": "And in Asia, which gets most of its oil", "start": 325.59, "duration": 0.010000000000047748}
+{"text": "And in Asia, which gets most of its oil through<00:05:25.840><c> the</c><00:05:26.080><c> straight,</c><00:05:26.880><c> countries</c><00:05:27.360><c> like</c>", "start": 325.6, "duration": 2.069999999999993}
+{"text": "through the straight, countries like", "start": 327.67, "duration": 0.009999999999990905}
+{"text": "through the straight, countries like Thailand,<00:05:28.560><c> Pakistan,</c><00:05:29.360><c> and</c><00:05:29.680><c> Bangladesh</c><00:05:30.720><c> are</c>", "start": 327.68, "duration": 3.3489999999999895}
+{"text": "Thailand, Pakistan, and Bangladesh are", "start": 331.029, "duration": 0.009999999999990905}
+{"text": "Thailand, Pakistan, and Bangladesh are already<00:05:31.440><c> dealing</c><00:05:31.759><c> with</c><00:05:31.919><c> fuel</c><00:05:32.320><c> shortages</c><00:05:32.960><c> and</c>", "start": 331.039, "duration": 2.2309999999999945}
+{"text": "already dealing with fuel shortages and", "start": 333.27, "duration": 0.009999999999990905}
+{"text": "already dealing with fuel shortages and long<00:05:33.520><c> lines</c><00:05:33.840><c> at</c><00:05:34.080><c> gas</c><00:05:34.400><c> stations</c><00:05:34.960><c> as</c><00:05:35.280><c> drivers</c>", "start": 333.28, "duration": 2.469000000000051}
+{"text": "long lines at gas stations as drivers", "start": 335.749, "duration": 0.009999999999990905}
+{"text": "long lines at gas stations as drivers try<00:05:36.000><c> to</c><00:05:36.160><c> fill</c><00:05:36.479><c> up.</c><00:05:37.520><c> Jet</c><00:05:37.840><c> and</c><00:05:38.080><c> diesel</c><00:05:38.560><c> fuel</c>", "start": 335.759, "duration": 3.190999999999974}
+{"text": "try to fill up. Jet and diesel fuel", "start": 338.95, "duration": 0.009999999999990905}
+{"text": "try to fill up. Jet and diesel fuel prices<00:05:39.360><c> have</c><00:05:39.680><c> also</c><00:05:40.080><c> surged,</c><00:05:40.960><c> up</c><00:05:41.280><c> 25%.</c>", "start": 338.96, "duration": 3.990000000000009}
+{"text": "prices have also surged, up 25%.", "start": 342.95, "duration": 0.009999999999990905}
+{"text": "prices have also surged, up 25%. And<00:05:43.199><c> as</c><00:05:43.440><c> a</c><00:05:43.680><c> result,</c><00:05:44.320><c> higher</c><00:05:44.720><c> plane</c><00:05:45.120><c> tickets</c>", "start": 342.96, "duration": 2.5500000000000114}
+{"text": "And as a result, higher plane tickets", "start": 345.51, "duration": 0.009999999999990905}
+{"text": "And as a result, higher plane tickets and<00:05:45.840><c> grocery</c><00:05:46.320><c> prices</c><00:05:46.880><c> are</c><00:05:47.120><c> expected</c><00:05:47.600><c> to</c>", "start": 345.52, "duration": 2.38900000000001}
+{"text": "and grocery prices are expected to", "start": 347.909, "duration": 0.009999999999990905}
+{"text": "and grocery prices are expected to follow.", "start": 347.919, "duration": 1.5910000000000082}
+{"text": "follow.", "start": 349.51, "duration": 0.009999999999990905}
+{"text": "follow. Give<00:05:49.680><c> it</c><00:05:49.840><c> to</c><00:05:50.000><c> me</c><00:05:50.160><c> straight.</c><00:05:50.560><c> What</c><00:05:50.800><c> is</c><00:05:50.960><c> the</c>", "start": 349.52, "duration": 1.5900000000000318}
+{"text": "Give it to me straight. What is the", "start": 351.11, "duration": 0.009999999999990905}
+{"text": "Give it to me straight. What is the worstc<00:05:51.520><c> case</c><00:05:52.080><c> scenario</c><00:05:52.720><c> that</c><00:05:53.039><c> you</c><00:05:53.199><c> are</c>", "start": 351.12, "duration": 2.230000000000018}
+{"text": "worstc case scenario that you are", "start": 353.35, "duration": 0.009999999999990905}
+{"text": "worstc case scenario that you are predicting<00:05:53.759><c> here?</c>", "start": 353.36, "duration": 1.1089999999999804}
+{"text": "predicting here?", "start": 354.469, "duration": 0.009999999999990905}
+{"text": "predicting here? &gt;&gt; I'm<00:05:54.720><c> predicting</c><00:05:55.840><c> that</c><00:05:56.320><c> this</c><00:05:56.560><c> is</c><00:05:56.720><c> going</c><00:05:56.800><c> to</c><00:05:56.880><c> get</c>", "start": 354.479, "duration": 2.5500000000000114}
+{"text": "&gt;&gt; I'm predicting that this is going to get", "start": 357.029, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; I'm predicting that this is going to get worse<00:05:57.199><c> before</c><00:05:57.440><c> it</c><00:05:57.600><c> gets</c><00:05:57.840><c> better.</c><00:05:58.479><c> This</c><00:05:58.720><c> is</c>", "start": 357.039, "duration": 1.8310000000000173}
+{"text": "worse before it gets better. This is", "start": 358.87, "duration": 0.009999999999990905}
+{"text": "worse before it gets better. This is going<00:05:58.960><c> to</c><00:05:59.039><c> be</c><00:05:59.120><c> a</c><00:05:59.280><c> longer</c><00:05:59.600><c> and</c><00:05:59.759><c> costier</c>", "start": 358.88, "duration": 1.3500000000000227}
+{"text": "going to be a longer and costier", "start": 360.23, "duration": 0.009999999999990905}
+{"text": "going to be a longer and costier conflict<00:06:00.720><c> than</c><00:06:01.039><c> just</c><00:06:01.199><c> about</c><00:06:01.440><c> everybody</c>", "start": 360.24, "duration": 1.5090000000000146}
+{"text": "conflict than just about everybody", "start": 361.749, "duration": 0.009999999999990905}
+{"text": "conflict than just about everybody expected.", "start": 361.759, "duration": 0.950999999999965}
+{"text": "expected.", "start": 362.71, "duration": 0.010000000000047748}
+{"text": "expected. &gt;&gt; You<00:06:02.960><c> have</c><00:06:03.199><c> said</c><00:06:03.360><c> that</c><00:06:03.600><c> a</c><00:06:03.919><c> prolonged</c><00:06:05.120><c> closure</c>", "start": 362.72, "duration": 2.8699999999999477}
+{"text": "&gt;&gt; You have said that a prolonged closure", "start": 365.59, "duration": 0.010000000000047748}
+{"text": "&gt;&gt; You have said that a prolonged closure of<00:06:05.840><c> the</c><00:06:06.000><c> street</c><00:06:06.160><c> of</c><00:06:06.319><c> Hormuz</c><00:06:06.800><c> is</c><00:06:06.880><c> a</c><00:06:07.039><c> guaranteed</c>", "start": 365.6, "duration": 1.9099999999999682}
+{"text": "of the street of Hormuz is a guaranteed", "start": 367.51, "duration": 0.009999999999990905}
+{"text": "of the street of Hormuz is a guaranteed global<00:06:08.000><c> recession.</c><00:06:08.880><c> Do</c><00:06:09.039><c> you</c><00:06:09.199><c> still</c><00:06:09.360><c> stand</c><00:06:09.520><c> by</c>", "start": 367.52, "duration": 2.150000000000034}
+{"text": "global recession. Do you still stand by", "start": 369.67, "duration": 0.009999999999990905}
+{"text": "global recession. Do you still stand by that?", "start": 369.68, "duration": 0.3100000000000023}
+{"text": "that?", "start": 369.99, "duration": 0.009999999999990905}
+{"text": "that? &gt;&gt; Look,<00:06:10.319><c> yes.</c><00:06:10.639><c> the</c><00:06:10.800><c> the</c><00:06:11.039><c> world</c><00:06:11.360><c> economy</c><00:06:11.840><c> cannot</c>", "start": 370.0, "duration": 2.230000000000018}
+{"text": "&gt;&gt; Look, yes. the the world economy cannot", "start": 372.23, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; Look, yes. the the world economy cannot grow<00:06:13.520><c> without</c><00:06:14.000><c> 20%</c><00:06:14.400><c> of</c><00:06:14.560><c> its</c><00:06:14.800><c> energy</c><00:06:15.120><c> supply.</c>", "start": 372.24, "duration": 3.5090000000000146}
+{"text": "grow without 20% of its energy supply.", "start": 375.749, "duration": 0.009999999999990905}
+{"text": "grow without 20% of its energy supply. Period.", "start": 375.759, "duration": 0.950999999999965}
+{"text": "Period.", "start": 376.71, "duration": 0.010000000000047748}
+{"text": "Period. &gt;&gt; Rarely<00:06:17.120><c> do</c><00:06:17.360><c> we</c><00:06:17.600><c> recognize</c><00:06:18.960><c> history</c><00:06:19.680><c> in</c><00:06:20.000><c> the</c>", "start": 376.72, "duration": 3.42999999999995}
+{"text": "&gt;&gt; Rarely do we recognize history in the", "start": 380.15, "duration": 0.010000000000047748}
+{"text": "&gt;&gt; Rarely do we recognize history in the making.<00:06:20.960><c> But</c><00:06:21.120><c> is</c><00:06:21.280><c> that</c><00:06:21.440><c> what</c><00:06:21.600><c> we</c><00:06:21.759><c> are</c>", "start": 380.16, "duration": 1.7489999999999668}
+{"text": "making. But is that what we are", "start": 381.909, "duration": 0.009999999999990905}
+{"text": "making. But is that what we are witnessing<00:06:22.400><c> right</c><00:06:22.639><c> now?</c><00:06:22.960><c> We're</c><00:06:23.199><c> sitting</c><00:06:23.440><c> in</c>", "start": 381.919, "duration": 1.7510000000000332}
+{"text": "witnessing right now? We're sitting in", "start": 383.67, "duration": 0.009999999999990905}
+{"text": "witnessing right now? We're sitting in the<00:06:23.759><c> middle</c><00:06:23.919><c> of</c><00:06:24.160><c> an</c><00:06:24.800><c> unprecedented</c><00:06:26.160><c> time.</c>", "start": 383.68, "duration": 3.909999999999968}
+{"text": "the middle of an unprecedented time.", "start": 387.59, "duration": 0.010000000000047748}
+{"text": "the middle of an unprecedented time. &gt;&gt; Yes,<00:06:28.000><c> we</c><00:06:28.240><c> we</c><00:06:28.560><c> are</c><00:06:28.720><c> experiencing</c><00:06:29.680><c> a</c><00:06:30.720><c> just</c><00:06:30.960><c> as</c><00:06:31.199><c> a</c>", "start": 387.6, "duration": 3.75}
+{"text": "&gt;&gt; Yes, we we are experiencing a just as a", "start": 391.35, "duration": 0.009999999999990905}
+{"text": "&gt;&gt; Yes, we we are experiencing a just as a factual<00:06:31.759><c> matter</c><00:06:32.560><c> the</c><00:06:32.960><c> biggest</c><00:06:33.840><c> energy</c>", "start": 391.36, "duration": 3.589999999999975}
+{"text": "factual matter the biggest energy", "start": 394.95, "duration": 0.009999999999990905}
+{"text": "factual matter the biggest energy disruption<00:06:36.240><c> in</c><00:06:36.639><c> history.</c>", "start": 394.96, "duration": 3.1100000000000136}
+{"text": "disruption in history.", "start": 398.07, "duration": 0.009999999999990905}
+{"text": "disruption in history. Um,<00:06:39.039><c> we</c><00:06:39.280><c> have</c><00:06:39.440><c> to</c><00:06:39.600><c> just</c><00:06:39.840><c> hope</c><00:06:40.080><c> and</c><00:06:40.400><c> pray</c><00:06:41.039><c> that</c>", "start": 398.08, "duration": 3.1899999999999977}
+{"text": "Um, we have to just hope and pray that", "start": 401.27, "duration": 0.009999999999990905}
+{"text": "Um, we have to just hope and pray that it<00:06:41.520><c> doesn't</c><00:06:41.759><c> go</c><00:06:41.919><c> on</c><00:06:42.160><c> for</c><00:06:42.319><c> too</c><00:06:42.560><c> much</c><00:06:42.800><c> longer.</c>", "start": 401.28, "duration": 4.520000000000039}

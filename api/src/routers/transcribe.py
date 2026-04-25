@@ -41,6 +41,14 @@ def _youtube_captions_to_segments(caption_path: pathlib.Path) -> dict:
         "segments": segments,
     }
 
+"""
+The important decision points:
+
+use_youtube_captions
+transcript_path.exists()
+yt_caption_path.exists()
+
+"""
 
 @router.post("/transcribe/{video_id}", response_model=TranscribeResponse)
 async def transcribe_endpoint(
@@ -64,7 +72,9 @@ async def transcribe_endpoint(
     transcript_path = transcriptions_dir / f"{title}.json"
 
     # Return cached Whisper result if it exists and we're not forcing re-run
+
     if transcript_path.exists() and use_youtube_captions:
+        #If transcript already exists and use_youtube_captions is True
         data = json.loads(transcript_path.read_text())
         return TranscribeResponse(
             video_id=video_id,
@@ -76,8 +86,10 @@ async def transcribe_endpoint(
 
     # When not forcing STT, prefer YouTube captions over running Whisper
     if use_youtube_captions:
+        #If use_youtube_captions is True but transcript doesn't exist
         yt_caption_path = settings.youtube_captions_dir / f"{title}.txt"
         if yt_caption_path.exists():
+            #youtube caption exists
             result = _youtube_captions_to_segments(yt_caption_path)
             transcript_path.write_text(json.dumps(result))
             return TranscribeResponse(
@@ -87,7 +99,8 @@ async def transcribe_endpoint(
                 segments=result["segments"],
                 skipped=True,
             )
-
+    #if use_youtube_captions is False
+    
     # Run Whisper STT
     svc = TranscriptionService(
         ui_dir=settings.data_dir,

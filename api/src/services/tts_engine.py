@@ -21,14 +21,14 @@ CHATTERBOX_SPEAKER_WAV = os.getenv("CHATTERBOX_SPEAKER_WAV", "")
 # Default is "on" (new clamped path). Useful for A/B comparisons.
 _ALIGNMENT_ENABLED = os.getenv("FW_ALIGNMENT", "on").lower() != "off"
 
-SPEED_MIN = 0.75
-SPEED_MAX = 1.25
+SPEED_MIN = 0.85 #earlier 0.75
+SPEED_MAX = 1.15 #earlier 1.25
 # When TTS audio is less than this fraction of the target window, skip
 # time-stretching entirely — play at natural speed and pad with silence.
 # Prevents comically slow speech in windows with long narrator pauses.
 _STRETCH_SKIP_RATIO = 0.5
-_SPEED_MIN_LEGACY = 0.1
-_SPEED_MAX_LEGACY = 10.0
+_SPEED_MIN_LEGACY = 0.85 #0.1 earlier
+_SPEED_MAX_LEGACY = 1.15 # 10.0 earlier
 
 
 class ChatterboxClient:
@@ -79,7 +79,7 @@ class ChatterboxClient:
         resp = requests.post(
             f"{self.base_url}/v1/audio/speech",
             json={"input": text, "response_format": "wav"},
-            timeout=(5, 60),
+            timeout=(5, 7200),#earlier it was (5, 60)
         )
         resp.raise_for_status()
         return resp.content
@@ -103,7 +103,7 @@ class ChatterboxClient:
                 f"{self.base_url}/v1/audio/speech/upload",
                 data={"input": text, "response_format": "wav"},
                 files={"voice_file": (wav_path.name, f, "audio/wav")},
-                timeout=(5, 60),
+                timeout=(5, 7200), #earlier it was (5, 60)
             )
         resp.raise_for_status()
         return resp.content
@@ -336,6 +336,72 @@ def _shorten_segment_text(en_text: str, es_text: str, target_sec: float) -> str:
         _logging.getLogger(__name__).warning("[tts] rerank failed: %s", exc)
     return es_text
 
+#This function was added later
+def _clean_tts_text(text: str) -> str:
+    """Clean translated text before sending it to TTS.
+
+    Removes timestamps, HTML escapes, subtitle/control residue,
+    and repeated junk tokens seen in the pipeline outputs.
+    """
+    import re
+
+    if not text:
+        return ""
+
+    text = text.replace("&gt;", " ")
+    text = text.replace("&lt;", " ")
+    text = text.replace("/c", " ")
+    text = text.replace("\\n", " ")
+    text = text.replace("\n", " ")
+
+    # Remove timestamps like:
+    # 00:00:08.240
+    # 0:05:49.680
+    # 00:06:23
+    text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}(?:\.\d+)?\b", " ", text)
+    text = re.sub(r"\b\d{1,2}:\d{2}(?:\.\d+)?\b", " ", text)
+
+    # Remove common junk/residue patterns still visible in logs
+    junk_patterns = [
+        r"\bt[ií]tul\w*\b",
+        r"\bcontact\w*\b",
+        r"\bnombr\w*\b",
+        r"\bingres\w*\b",
+        r"\bconfianz\w*\b",
+        r"\brealizad\w*\b",
+        r"\bindicad\w*\b",
+        r"\bescrit\w*\b",
+        r"\brecomendad\w*\b",
+        r"\bseleccionad\w*\b",
+        r"\bautorizad\w*\b",
+        r"\bcumplid\w*\b",
+        r"\bimplicad\w*\b",
+        r"\bint[ée]rprete\w*\b",
+        r"\bintitulado\w*\b",
+        r"\bcursoc\b",
+        r"\bfieltro\b",
+        r"\bseguido\b",
+        r"\bl[ií]mite\b",
+        r"\btrabajar\b",
+        r"\b[áa]mbito\b",
+        r"\bhizo referencia\b",
+        r"\bpropiedad intelectual\b",
+        r"\bno se hace referencia\b",
+        r"\bno se cumpli[oó]\b",
+        r"\bse cumpli[oó]\b",
+    ]
+
+    for pattern in junk_patterns:
+        text = re.sub(pattern, " ", text, flags=re.IGNORECASE)
+
+    # Remove weird symbol clutter
+    text = re.sub(r"[{}\[\]<>|*_]+", " ", text)
+    text = re.sub(r"\s*[:;]+\s*", " ", text)
+
+    # Collapse whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
 
 def _write_align_report(
     output_path: str,
@@ -446,7 +512,8 @@ def text_file_to_speech(source_path, output_path, tts_engine=None, *, alignment=
         stretch_factor = aligned_seg.stretch_factor if aligned_seg else 1.0
         target_sec = seg["end"] - seg["start"]
 
-        seg_text = seg["text"]
+        #seg_text = seg["text"] earlier
+        seg_text = _clean_tts_text(seg["text"])
         if aligned_seg is not None:
             from foreign_whispers.alignment import AlignAction
             if aligned_seg.action == AlignAction.REQUEST_SHORTER:
@@ -454,7 +521,11 @@ def text_file_to_speech(source_path, output_path, tts_engine=None, *, alignment=
                 en_segs = en_transcript.get("segments", [])
                 if i < len(en_segs):
                     en_text = en_segs[i].get("text", "")
-                seg_text = _shorten_segment_text(en_text, seg["text"], target_sec)
+                seg_text = _shorten_segment_text(en_text, seg_text, target_sec)
+                seg_text = _clean_tts_text(seg_text)
+
+        if not seg_text.strip():
+            seg_text = ""
 
         seg_metas.append({
             "index": i,
@@ -470,7 +541,7 @@ def text_file_to_speech(source_path, output_path, tts_engine=None, *, alignment=
     # Submit all TTS calls to a thread pool so the GPU stays busy while
     # previous results are being downloaded / decoded.
     from concurrent.futures import ThreadPoolExecutor, as_completed
-    _TTS_WORKERS = int(os.getenv("FW_TTS_WORKERS", "3"))
+    _TTS_WORKERS = int(os.getenv("FW_TTS_WORKERS", "1")) # earlier it was 3
 
     raw_wav_map: dict[int, bytes | None] = {}
 

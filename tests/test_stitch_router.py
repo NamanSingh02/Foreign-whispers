@@ -65,7 +65,7 @@ def test_stitch_returns_video_path(client, monkeypatch, ui_dir):
     def fake_stitch(video_path, audio_path, output_path):
         pathlib.Path(output_path).write_bytes(b"fake-mp4")
 
-    import api.src.routers.stitch as stitch_mod
+    import api.src.routers.stitch_old as stitch_mod
 
     monkeypatch.setattr(stitch_mod._stitch_service, "stitch_audio_only", fake_stitch)
 
@@ -93,7 +93,7 @@ def test_stitch_skips_if_cached(client, monkeypatch, ui_dir):
     def tracking_stitch(video_path, audio_path, output_path):
         stitch_called["count"] += 1
 
-    import api.src.routers.stitch as stitch_mod
+    import api.src.routers.stitch_old as stitch_mod
 
     monkeypatch.setattr(stitch_mod._stitch_service, "stitch_audio_only", tracking_stitch)
 

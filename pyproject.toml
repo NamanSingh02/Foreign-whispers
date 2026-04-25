@@ -8,7 +8,7 @@ dependencies = [
     "torch>=2.0",
     "torchaudio>=2.0",
     "TTS>=0.22.0",
-    "yt-dlp",
+    "yt-dlp>=2026.3.17",
     "youtube-transcript-api",
     "openai-whisper",
     "moviepy<2",
