@@ -1,0 +1,3034 @@
+{
+  "mean_abs_duration_error_s": 0.0,
+  "pct_severe_stretch": 0.0,
+  "n_gap_shifts": 0,
+  "n_translation_retries": 0,
+  "total_cumulative_drift_s": 0.0,
+  "alignment_enabled": true,
+  "segments": [
+    {
+      "index": 0,
+      "text": "\u00bfCu\u00e1l es el peor escenario del caso?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 1,
+      "text": "\u00bfCu\u00e1l es el peor escenario del caso que est\u00e1s haciendo? Emperado preocupado Fuertec saber acerca de lo que hiciste Empezar Nocturas C\u00f3modo es garantizado00 incluido que fue Fuerte garantizado00 .000c",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 2,
+      "text": "Te preocupa que sea",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 3,
+      "text": "te preocupa que est\u00e9 cerrada! para fines espec\u00edficos Notables semanas y confidencial semanas sorteados00 prendas y .",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 4,
+      "text": "cerrado durante semanas y semanas y semanas",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 5,
+      "text": "cerrado por semanas y semanas y semanas aqu\u00ed y que has habilitado00 Empezar para seleccionar C\u00f3mo se",
+      "target_sec": 3.349,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 6,
+      "text": "y empiezas a ver el mundo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 7,
+      "text": "aqu\u00ed y comienzas a ver la econom\u00eda global efectuada realmente confidencial obtenidos fue confidencial Nocturnado Incidido Fuerte aplicado porque fue",
+      "target_sec": 2.471,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 8,
+      "text": "la econom\u00eda realmente impactada porque",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 9,
+      "text": "econom\u00eda realmente siendo impactada porque el especificado fue es el realod habilitado para cumplir Ciertos",
+      "target_sec": 2.39,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 10,
+      "text": "es la sangre de la vida a cierto",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 11,
+      "text": "lo que es la sangre de la vida en cierta medida.Seguido00 As\u00ed se hizo el No se hizo realidad garantizadoc es Hizo referencia00 incluido el certificado /usado",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 12,
+      "text": "extensi\u00f3n. As\u00ed que la realidad es m\u00e1s larga",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 13,
+      "text": "extensi\u00f3n. As\u00ed que la realidad es la m\u00e1s larga que se cumpli\u00f300 no especificado va en, indicativo el contrato mencionados00 garantizadoc mayor",
+      "target_sec": 1.75,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 14,
+      "text": "que esto contin\u00faa, el mayor impacto",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 15,
+      "text": "que esto contin\u00faa, el mayor impacto que se hace yendo de usuario a hecho garantizadosc confidenciales a trav\u00e9s de relacionadosc industrias,",
+      "target_sec": 2.07,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 16,
+      "text": "va a tener a trav\u00e9s de industrias,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 17,
+      "text": "va a tener a trav\u00e9s de las industrias, a trav\u00e9s de las instrucciones00 de las regiones. de propiedad intelectuales Esto significado semana en con el usuario. Actas,",
+      "target_sec": 2.629,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 18,
+      "text": "en todas las regiones. Esta semana en 60 minutos,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 19,
+      "text": "en todas las regiones. Esta semana, en 60 minutos, hicimos referidos confidenciales de propiedad en el confidenciales garantizadosc estrechos de acceso Hizo referencia00 de Hormuz, efectuado",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 20,
+      "text": "informamos sobre la Straight of Hormuz,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 21,
+      "text": "informamos sobre la Straight of Hormuz, que se llev\u00f3 a cabo consistenciac estrechos especificados de agua Nocturnado de sobre el contrato de Iran's identificado confidenciales",
+      "target_sec": 2.391,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 22,
+      "text": "esa v\u00eda estrecha en el sur de Ir\u00e1n",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 23,
+      "text": "esa v\u00eda estrecha de agua en la costa sur de Ir\u00e1n.",
+      "target_sec": 2.07,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 24,
+      "text": "costa. Conecta el rico de aceite",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 25,
+      "text": "costa. Conecta los pa\u00edses ricos en aceites de descritos00 garantizados el en el golfo Hizo referencia00 en usarse",
+      "target_sec": 1.91,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 26,
+      "text": "pa\u00edses del Golfo P\u00e9rsico al",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 27,
+      "text": "pa\u00edses del golfo P\u00e9rsico al resto hicieron de descritos00 de del de referenciac world. de usuario de propiedad intelectuales de propiedad de los barcos de",
+      "target_sec": 2.389,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 28,
+      "text": "el resto del mundo. Los barcos que pasan",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 29,
+      "text": "el resto del mundo. Las naves que pasan a trav\u00e9s de efectuadas00 especificado se hizo Emprended00 llevan a quinto obtenidosc de referencia",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 30,
+      "text": "a trav\u00e9s de ella lleva una quinta parte del mundo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 31,
+      "text": "a trav\u00e9s de \u00e9l lleva una quinta parte del aceite del mundo y de propiedad a significativos de garant\u00eda especificado Hizo referencia00 de hecho",
+      "target_sec": 2.711,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 32,
+      "text": "aceite y una cantidad significativa de natural",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 33,
+      "text": "aceite y una cantidad significativa de gas natural.",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 34,
+      "text": "gas. Ahora, con ese tr\u00e1fico casi",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 35,
+      "text": "gas. Ahora, con ese tr\u00e1fico casi se detuvo hecho por efectuado confidencial del Normativo Novedad Notablecida incluido en el garantizadoc Ir\u00e1n,",
+      "target_sec": 2.39,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 36,
+      "text": "detenido por la guerra en Ir\u00e1n, el mundo es",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 37,
+      "text": "detenido por la guerra en Ir\u00e1n, el mundo est\u00e1 empezando usados a fines espec\u00edficos00 usadosc entendidos de registrados de de 00",
+      "target_sec": 2.549,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 38,
+      "text": "empezar a sentir el impacto de la energ\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 39,
+      "text": "empezando a sentir el impacto de los mercados energ\u00e9ticos de usuario a fines espec\u00edficos garantizadoc nacional(es) garantizadoc econom\u00edas.",
+      "target_sec": 3.031,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 40,
+      "text": "los mercados a las econom\u00edas nacionales. Puedes",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 41,
+      "text": "los mercados a las econom\u00edas nacionales. Puedes ver las instrucciones que indicaron Hizo referencia00 no est\u00e1 a identificado de 56.800 hilos identificados mencionados00 de referencia",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 16.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 42,
+      "text": "ver que hay mucho movimiento aqu\u00ed,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 43,
+      "text": "ver que hay mucho movimiento aqu\u00ed, \u00bfverdad?",
+      "target_sec": 0.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 44,
+      "text": "\u00bfVerdad?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 45,
+      "text": "\u00bfderecho? Nos cumplimos00 referidosc Hizo referencias con Uds. empleadosc Smith, Hizo referencia00 el contrato con el de usuario 01c",
+      "target_sec": 2.389,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 46,
+      "text": "tard\u00eda Hablamos con Matt Smith, un mercado petrolero",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 47,
+      "text": "Hemos hablado con Matt Smith, un analista del mercado petrol\u00edfero para el usuario Kepler, identificados que indicaron de referencia .199c",
+      "target_sec": 2.631,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 48,
+      "text": "analista de Kepler, que rastrea globalmente",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 49,
+      "text": "analista para Kepler, que rastrea el comercio global usados y de env\u00edo. He identificado prendas",
+      "target_sec": 2.469,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 50,
+      "text": "comercio y env\u00edo. Ha estado estudiando.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 51,
+      "text": "comercio y env\u00edo. Ha estado estudiando nave movimiento designado00 fieltroc estipulado en (0) en el directamente de intit.",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 52,
+      "text": "movimiento de barcos en la recta de Hormuz.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 53,
+      "text": "movimiento de barcos en la recta de Hormuz. Smith se llev\u00f3 a cabo indicaron quiere decirnos el 01 0,080 regional mencionados00 fieltroc millions wonc millions",
+      "target_sec": 2.31,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 54,
+      "text": "Smith nos dijo que la regi\u00f3n mueve millones",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 55,
+      "text": "Smith nos dijo que la regi\u00f3n mueve millones de cosas hechas de barriles de propiedad de certificados de referencia00 de referencia a de referencia00 d\u00eda. Gulf",
+      "target_sec": 3.03,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 56,
+      "text": "de barriles de aceite al d\u00eda. Para la mayor\u00eda del Golfo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 57,
+      "text": "de barriles de aceite al d\u00eda. Para la mayor\u00eda de los estados del Golfo, se cumpli\u00f300 indicando el s\u00f3lo quer\u00eda indicativo para el usuario prendas con su criterio",
+      "target_sec": 2.151,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 58,
+      "text": "estados, la \u00fanica manera de su aceite para",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 59,
+      "text": "estados, la \u00fanica manera para que su aceite alcance Dijoc el contrato hecho 16.799 consistenciac globalizada 17.119 comercial hecho00 es Hizo referencia00 a trav\u00e9s de 01 18078c",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 60,
+      "text": "llegar al mercado mundial es a trav\u00e9s de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 61,
+      "text": "alcanzar el mercado global es a trav\u00e9s del estrecho.",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 62,
+      "text": "Estrecho. Entonces, estos suministros est\u00e1n atrapados",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 63,
+      "text": "Estrecho. Por lo tanto, estos suministros est\u00e1n atascados porque fueron de referencia obtenidos00 de propiedad intelectuales el de conflicto.",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 64,
+      "text": "por el conflicto. Pero saud\u00ed",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 65,
+      "text": "por el conflicto. Pero Arabia Saudita cumpli\u00f300 Intentoc Ventajas Empleados Intentoc de especificado00 de (a) Int.",
+      "target_sec": 2.31,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 66,
+      "text": "Arabia se beneficia de d\u00e9cadas de bien",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 67,
+      "text": "Arabia se beneficia de d\u00e9cadas de buena planificaci\u00f3n.",
+      "target_sec": 0.949,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 68,
+      "text": "planificaci\u00f3n.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 69,
+      "text": "planeamiento. saudita instruccionesc Ar\u00e1bigo referidoc es garantizado a relativos referidos prendas injertos relacionados",
+      "target_sec": 1.911,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 70,
+      "text": "tard\u00eda Arabia Saudita es un relativo ganador de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 71,
+      "text": "Arabia Saudita es un vencedor relativo de esto (a) hecho ) )c en que indicaron prendas que se utilizaron para obtenerlo.",
+      "target_sec": 2.389,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 72,
+      "text": "esta situaci\u00f3n en que tiene un oleoducto",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 73,
+      "text": "esta situaci\u00f3n en que tiene un oleoducto llamado usados el m\u00e9todo designado00 oriente Nocturnado garantizadoc contrato organizador(a) Se hizo un que por",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 74,
+      "text": "llamado el oleoducto Este Oeste que fue",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 75,
+      "text": "llamado el oleoducto del Este Oeste que se construy\u00f3 de para fines espec\u00edficos exactamente efectuados esto indicativos.",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 76,
+      "text": "construido por esta raz\u00f3n. Era",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 77,
+      "text": "construido por esta raz\u00f3n. Se refer\u00eda a ello00 relativo sobre hechos de del mencionados00 de propiedad derecho de descritos Hormuz obtenida",
+      "target_sec": 1.431,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 78,
+      "text": "preocupado por la recta de Hormuz",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 79,
+      "text": "se refiere a la recta de Hormuz siendo hilo uh especificado esto fue significado de referencia de referencia de referencia y de derecho .3 00c",
+      "target_sec": 2.79,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 80,
+      "text": "siendo este punto de ahogamiento y as\u00ed",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 81,
+      "text": "ser uh este punto de corte y de modo que la tuber\u00eda indica que va usados en todo lo que hizo de usuario a 01c 40.301c 01c0 Yanu cumpli\u00f3 con el",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 82,
+      "text": "la tuber\u00eda va al Mar Rojo a Yanu",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 83,
+      "text": "tuber\u00eda se cruza al Mar Rojo a Yanu y se hace realidad00 que se quiere decir confidencial No se hace referencia00 No se aceptac principio iniciado(c ) No se quiere decir",
+      "target_sec": 1.59,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 84,
+      "text": "y estamos empezando a ver las exportaciones",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 85,
+      "text": "y estamos empezando a ver las exportaciones recogiendo las exportaciones especificado arriba apuntado de no se hizo en lugar. As\u00ed se hizo",
+      "target_sec": 1.75,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 86,
+      "text": "en vez de eso. As\u00ed que...",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 87,
+      "text": "en vez de eso. As\u00ed esencialmente se cumpli\u00f300 fieltroc satelital fieltroc edad Avanzado se hace facultad cumpli\u00f3 con usados para hacer",
+      "target_sec": 1.749,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 88,
+      "text": "esencialmente Arabia Saudita es capaz de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 89,
+      "text": "esencialmente Arabia Saud\u00ed es capaz de redirigir especificado su especificado crudo 048.079 a decir se indicar\u00e1 prenda 00 01c 01c",
+      "target_sec": 2.551,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 90,
+      "text": "redirigir su crudo para poder cargar en",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 91,
+      "text": "reroute its crude to be able to load in the made00 Propiedad intelectualc mientras que indica de propiedadc certificados Sea efectuado de referencia de 01c01 50.799 de usuario",
+      "target_sec": 2.789,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 92,
+      "text": "el Mar Rojo mientras que los similares de Iraq,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 93,
+      "text": "el Mar Rojo, mientras que los similares de Iraq, Kuwait hicieron de propiedad y de usuario Catar de propiedad no quiere decir de referencia han hecho de propiedadc 79",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 94,
+      "text": "Kuwait y Qatar no tienen la capacidad",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 95,
+      "text": "Kuwait y Qatar no tienen la capacidad de hacer las cosas00 de propiedad hacer clic que.",
+      "target_sec": 1.751,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 96,
+      "text": "para hacer eso. As\u00ed que tienen que cerrarse.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 97,
+      "text": "para hacer eso. As\u00ed que tienen que cerrarse en producci\u00f3n.",
+      "target_sec": 2.149,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 98,
+      "text": "producci\u00f3n. No es que Arabia Saudita sea",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 99,
+      "text": "producci\u00f3n. No es que Arabia Saud\u00ed sea capaz de lograrlo00 usados a fin de obtener mencionados00 completos identificados incluidosc todos identificadores de",
+      "target_sec": 1.67,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 100,
+      "text": "capaz de mover completamente todo su",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 101,
+      "text": "capaz de mover por completo todos sus barriles y confidenciales de exportaci\u00f3n efectuados efectuados de usados insinuados",
+      "target_sec": 1.431,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 102,
+      "text": "barriles y exportarlos del otro",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 103,
+      "text": "barriles y exportarlos desde el otro lado.",
+      "target_sec": 3.03,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 104,
+      "text": "Del lado. Pero puede hacer casi 4",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 105,
+      "text": "Del lado. Uh, pero puede hacer casi 4 millones de won00 incluidosc de barriles efectuados de referenciac especificados a del d\u00eda.",
+      "target_sec": 1.75,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 106,
+      "text": "millones de barriles al d\u00eda.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 107,
+      "text": "millones de barriles al d\u00eda. \u00bfC\u00f3mo se obtuvo00 implicar\u00eda har\u00eda clic que usted escribi\u00f3 efectuado significar\u00eda garantizadoc relativo a lo que se refiere",
+      "target_sec": 1.43,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 108,
+      "text": "\u00bfC\u00f3mo caracterizar\u00eda lo que es",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 109,
+      "text": "\u00bfC\u00f3mo caracterizar\u00eda lo que est\u00e1 sucediendo? en de en lo que est\u00e1 sucediendo de en la calle de referencia",
+      "target_sec": 2.309,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 110,
+      "text": "\u00bfen la calle de Hormuz?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 111,
+      "text": "\u00bfen la calle de Hormuz? Bueno, con las siguientes palabras que hemos hecho son hechoc ver a de desplomado 00c.4",
+      "target_sec": 2.231,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 112,
+      "text": "Bueno, estamos viendo un colapso de un",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 113,
+      "text": "Bueno, estamos viendo un colapso de una piedra clave usadosc en 02 econ\u00f3micos buscados mencionados00 hilos indicac relaci\u00f3n y",
+      "target_sec": 3.669,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 114,
+      "text": "suposici\u00f3n fundamental en la econom\u00eda y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 115,
+      "text": "Hip\u00f3tesis de piedra clave en econom\u00eda y energ\u00eda obtenidas00 mercados. Emprendimiento y mencionados00 si fue usuario cerrado c Hormuz No.",
+      "target_sec": 3.031,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 116,
+      "text": "mercados energ\u00e9ticos. Y si Hormuz est\u00e1 cerrado",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 117,
+      "text": "mercados energ\u00e9ticos. Y si Hormuz est\u00e1 cerrada por especificado a mes, uno de referencia claves el",
+      "target_sec": 2.47,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 118,
+      "text": "por un mes, uno de los m\u00e1s importantes",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 119,
+      "text": "por un mes, una de las rocas m\u00e1s importantes Hip\u00f3tesis de y indicando c\u00f3mo fue el",
+      "target_sec": 4.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 120,
+      "text": "Hip\u00f3tesis b\u00e1sicas y c\u00f3mo la econom\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 121,
+      "text": "Hip\u00f3tesis de base y c\u00f3mo funciona la econom\u00eda, indicando el de globales Notables de propiedad intelectuales Clavec trabajos Hizo referencia00 de y obtenidos",
+      "target_sec": 1.51,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 122,
+      "text": "trabajo, la econom\u00eda global trabaja y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 123,
+      "text": "obras, la econom\u00eda global funciona y alrededor de las obras garantizadoc garantizados har\u00e1 clic hilos referidoc colaps\u00f3.",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 124,
+      "text": "sobre seguridad habr\u00e1 colapsado.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 125,
+      "text": "sobre seguridad habr\u00e1 colapsado. Bob se hizo confidencial McN Empinado fue identificado Empezar incluido confidencial incluido en energ\u00eda indicativa garantizado00 Int.",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 16.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 126,
+      "text": "Bob McN era un asesor energ\u00e9tico",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 127,
+      "text": "Bob McN fue un asesor de energ\u00eda al Presidente intelectuales George obtenidos00 noc W. empleadosc contratados por Bush prendas registradas durante el contrato",
+      "target_sec": 2.47,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 128,
+      "text": "Presidente George W. Bush durante el Iraq",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 129,
+      "text": "Presidente George W. Bush durante la guerra de Irak, cumpli\u00f300 que indicaron ahora confidenciales00 indicaron Fuertes empleados contratados por clientes contratados por en relaci\u00f3n con el y el",
+      "target_sec": 2.95,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 130,
+      "text": "la guerra, que ahora asesora a clientes en petr\u00f3leo y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 131,
+      "text": "la guerra, que ahora asesora a clientes en petr\u00f3leo y gas incluidosc comerciales referidos no utilizados nos hicieron reservados00 relativoc disruptc",
+      "target_sec": 2.95,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 132,
+      "text": "mercados de gas. Nos dijo la interrupci\u00f3n.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 133,
+      "text": "mercados de gas. Nos dijo que la perturbaci\u00f3n es hilos referidos ya confidencial mencionados00 adquiridos globalmente impactos,",
+      "target_sec": 2.549,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 134,
+      "text": "ya est\u00e1 teniendo impactos globales,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 135,
+      "text": "ya est\u00e1 teniendo impactos globales, incluyendo en Rusia.",
+      "target_sec": 1.91,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 136,
+      "text": "incluyendo en Rusia.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 137,
+      "text": "incluido en Rusia. Esto se llev\u00f3 a cabo00 de relacionados y de del Fuerte tratadoc contrato de aceite fuec20 precio garantizado/injertado",
+      "target_sec": 2.471,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 138,
+      "text": "Este conflicto y el aumento del precio del petr\u00f3leo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 139,
+      "text": "Este conflicto y el aumento del precio del petr\u00f3leo han sido hechos hecho intelectual hecho confidenciales dos relacionados usuario prendas de vestir para cumplir Una, efectuada",
+      "target_sec": 2.949,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 17.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 140,
+      "text": "ha hecho dos cosas para ayudar a Putin. Uno,",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 141,
+      "text": "ha hecho dos cosas para ayudar a Putin. Uno, se hace realidad00 obtenidos obtenidos Normativamente el m\u00e9todo de en general incluido en el precio garantizado00 de 02 160",
+      "target_sec": 2.151,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 142,
+      "text": "se ha levantado el precio total de crudo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 143,
+      "text": "es levantado el precio global del crudo. y Empierto fuec segundo, incluido por el usuario eliminados",
+      "target_sec": 3.27,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 144,
+      "text": "aceite. Y segundo, se elimina que",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 145,
+      "text": "aceite. Y en segundo lugar, se elimina ese descuento, compartidos que indicaron confidenciales de efectuados de referenciac especificado00 de propiedad que hicieron de referencia",
+      "target_sec": 3.03,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 146,
+      "text": "descuento, ese precio de la pena que ten\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 147,
+      "text": "descuento, ese precio de la pena que ten\u00eda que hacer pagar. ahora todo el mundo quiere decir prendado cumpli\u00f300 de propiedadc 01 Y el",
+      "target_sec": 2.789,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 148,
+      "text": "para pagar. Ahora todo el mundo quiere su aceite. Y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 149,
+      "text": "para pagar. Ahora todo el mundo quiere su aceite. Y s\u00ed, con las siguientes palabras hilos de Navidad fieltroc fue temprano de para el usuario de usuario Putin.",
+      "target_sec": 1.91,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 150,
+      "text": "S\u00ed, la Navidad lleg\u00f3 temprano para Putin. As\u00ed que...",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 151,
+      "text": "S\u00ed, la Navidad lleg\u00f3 temprano para Putin. As\u00ed que Putin se cumpli\u00f300 puede indicar ser confidencial obtenido temporalmente en el de",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 152,
+      "text": "Putin puede beneficiarse temporalmente de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 153,
+      "text": "Putin puede estar beneficiando temporalmente de un sorteo incluidosc incluidos e\u00f3lica, , pero a largo plazo garantizado de propiedadc 03 10",
+      "target_sec": 5.671,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 154,
+      "text": "un d\u00e9ficit presupuestario, pero a largo plazo si Ir\u00e1n",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 155,
+      "text": "a presupuesto windfall, pero a largo plazo si Ir\u00e1n uh cumpli\u00f300 cerrado00 fieltroc siendo de del hechoc mundo's identificado Fuertec59 Mejoramiento/ )",
+      "target_sec": 2.71,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 156,
+      "text": "Deja de ser el mejor patrocinador del mundo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 157,
+      "text": "uh deja de ser el principal patrocinador del mundo como se hizo intelectuales terror identificados y incluso eh 17 Hizo referencia00 se convierte en 120",
+      "target_sec": 2.71,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 158,
+      "text": "como terror e incluso se convierte en un amigo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 159,
+      "text": "como terror e incluso uh se convierte en un amigo de referencia00 de el de propiedad United HomeExchange 03 y de referencia Israel buscado",
+      "target_sec": 1.35,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 160,
+      "text": "de los Estados Unidos e Israel",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 161,
+      "text": "de los Estados Unidos e Israel y otros pa\u00edses, confidenciales consistenciac que hizo hecho00 garantizadoc Hizo referencia00 quiere decir 03 20c",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 162,
+      "text": "otros pa\u00edses, que espero y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 163,
+      "text": "otros pa\u00edses, que espero y espero haber sido eventualmente, efectuados confidenciales Fuertec um tratado Nocturnado que sea a Hizo referencia00",
+      "target_sec": 2.39,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 164,
+      "text": "espera eventualmente, um que es un mal d\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 165,
+      "text": "espera eventualmente, um que es un mal d\u00eda para cumplir00 incorrectos Rusia. muy identificados confidenciales indica mal fecha de fecha de referencia de para obtener",
+      "target_sec": 2.469,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 166,
+      "text": "para Rusia. Un mal d\u00eda para Putin.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 167,
+      "text": "para Rusia. Un d\u00eda muy malo para Putin. Pero con fue hoy",
+      "target_sec": 1.911,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 168,
+      "text": "Pero hoy",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 169,
+      "text": "Pero hoy uh se cumpli\u00f300 como se hizo Emprended00 de propiedad de las cosas especificadas incluido en el de referencia de propiedad",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 170,
+      "text": "como las cosas est\u00e1n en la calle",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 171,
+      "text": "Uh como las cosas se colocan en la calle de Hormuz, Propiedad He hecho referencia hecho quiere decir Fuerte elegidoc Dijo que fue Hizo referencia00 Fuertese cumpli\u00f3 que fue .",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 172,
+      "text": "Hormuz, lo he visto decir que Rusia es",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 173,
+      "text": "Hormuz, lo he visto decir que Rusia es la claros ganador efectuado de en de esto se war.",
+      "target_sec": 2.07,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 6.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 174,
+      "text": "el ganador claro en esta guerra.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 175,
+      "text": "la clara ganadora en esta guerra. Putin, no mencionados00 hechoc relaci\u00f3n, efectuado es confidencial benefici\u00e1ndose de de",
+      "target_sec": 2.39,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 176,
+      "text": "tard\u00eda Putin, ninguna pregunta, se beneficia de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 177,
+      "text": "Putin, no hay duda, se est\u00e1 beneficiando de mucho superior de de derecho prendas de vestir ahora.",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 178,
+      "text": "mucho m\u00e1s ahora mismo. Y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 179,
+      "text": "mucho m\u00e1s ahora mismo. Y Yo hice lo siguiente quiere decir Empezar de propiedad a de preguntarse garantizados a personal 03 400.280 injertos en relaci\u00f3n con lo que se refiere a 03c 39 Acerca de",
+      "target_sec": 2.07,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 15.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 180,
+      "text": "toque Quiero preguntarte sobre China. Acerca de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 181,
+      "text": "toque Quiero preguntarte sobre China. Aproximadamente la mitad con las siguientes palabras Intentos de Intentos de China(s)(s) identificado confidenciales) de acuerdoc especificado00 de con el petr\u00f3leo identificador .",
+      "target_sec": 2.949,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 15.52,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 182,
+      "text": "la mitad del aceite importado de China viene",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 183,
+      "text": "La mitad del aceite importado de China viene a trav\u00e9s de las instrucciones instrucciones relacionadas con el m\u00e9todo incluido. incluido Lo que hizo garantizadoc No hace referencia Hizo referencia00",
+      "target_sec": 2.071,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 184,
+      "text": "a trav\u00e9s del estrecho. \u00bfQu\u00e9 significa esto?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 185,
+      "text": "a trav\u00e9s del estrecho. \u00bfQu\u00e9 significa esto para fines espec\u00edficos00 sus econom\u00eda?",
+      "target_sec": 1.829,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 6.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 186,
+      "text": "por su econom\u00eda?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 187,
+      "text": "\u00bfpara su econom\u00eda? Esto se llev\u00f3 a cabo00 es especificado a indicativo Fuerte real hecho prendado Fuertec",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 188,
+      "text": "Esto es un verdadero golpe de est\u00f3mago para su",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 189,
+      "text": "Se trata de un verdadero golpe de tripa para su econom\u00eda. de China No se hizo No se con Intento de obtener el No.",
+      "target_sec": 2.391,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 190,
+      "text": "econom\u00eda. China estaba recibiendo un encanto",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 191,
+      "text": "econom\u00eda. China estaba obteniendo un acuerdo de novia de referencia mencionados00 de propiedad intelectuales iran\u00edes mencionados00 de usuario y indicac eh Hizo referencia00 03 55c.120 y",
+      "target_sec": 4.229,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 192,
+      "text": "trato de Ir\u00e1n y uh y dependiendo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 193,
+      "text": "tratado de Ir\u00e1n y uh y dependiendo fuertemente relativos a de flujo obligatorio del Hormuz. Fuerte se\u00f1alado00 garantizado",
+      "target_sec": 2.951,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 194,
+      "text": "fuertemente en el flujo de Hormuz. El pensamiento",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 195,
+      "text": "fuertemente en el flujo de Hormuz. El pensamiento que se llev\u00f3 a cabo que hizo fieltroc podr\u00eda indicar se debe hacer interrumpido de referencia para fines a",
+      "target_sec": 1.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 196,
+      "text": "que podr\u00eda ser interrumpido para un",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 197,
+      "text": "que podr\u00eda ser interrumpido para un prolongado registro Curso edad especificado es relativo devastador para el Hizo referencia00",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 198,
+      "text": "el per\u00edodo prolongado es devastador para el",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 199,
+      "text": "el per\u00edodo prolongado es devastador para el chino econom\u00eda. ahora, que hicieron han",
+      "target_sec": 3.35,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 200,
+      "text": "Econom\u00eda china. Ahora, tienen",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 201,
+      "text": "Econom\u00eda china. Ahora, han almacenado las siguientes acciones acceso Empezar de usuario indicativo del aceite de Hizo referencia00 y con el de usuario",
+      "target_sec": 2.149,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 202,
+      "text": "almacenado un mont\u00f3n de petr\u00f3leo y as\u00ed que est\u00e1n",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 203,
+      "text": "almacenado un mont\u00f3n de aceite y por lo que son bastante bien confidencial suministrados efectuados / c en relacionadosc acordados especificados reservados00",
+      "target_sec": 1.271,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 204,
+      "text": "bastante bien suministrado en t\u00e9rminos de",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 205,
+      "text": "bastante bien abastecido en t\u00e9rminos de material de suministro, efectuados confidenciales de pero efectuados acordados de el acordados00 econ\u00f3micos precio garantizado",
+      "target_sec": 2.149,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 206,
+      "text": "suministro f\u00edsico, pero el costo econ\u00f3mico",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 207,
+      "text": "suministros f\u00edsicos, pero el costo econ\u00f3mico se cumplir\u00e100 deb\u00eda ser confidencial tratadoc inteligente bastante identificado confidencial Fuerte Fuerte garantizadoc facultado para entrar sorteados00 fieltros asignados.",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 16.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 208,
+      "text": "Ser\u00e1 muy fuerte para ellos.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 209,
+      "text": "Ser\u00e1 muy fuerte para ellos. Incluso se cumpli\u00f300 referidos as\u00ed, Empe\u00f1\u00f3 Empezar (a) garantizadoc es garantizadoc todav\u00eda que benefician a terceros00 .199c",
+      "target_sec": 2.63,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 210,
+      "text": "A\u00fan as\u00ed, China sigue benefici\u00e1ndose",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 211,
+      "text": "A\u00fan as\u00ed, China sigue benefici\u00e1ndose de su obra relacionados obtenidos00 confidenciales con efectuados00 Ir\u00e1n. / fuecogido Matt hizo fue Smith",
+      "target_sec": 2.631,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 212,
+      "text": "su relaci\u00f3n con Ir\u00e1n. Matt Smith",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 213,
+      "text": "su relaci\u00f3n con Ir\u00e1n. Matt Smith en el registro Kepler observado dijo relativo que hizo Hizo referencia00 garantizado00",
+      "target_sec": 2.309,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 214,
+      "text": "en Kepler nos dijo que Ir\u00e1n tiene",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 215,
+      "text": "en Kepler nos dijo que Ir\u00e1n ha continuado haciendo clic en usados para realizar inteligentes de especificado referidos a real de",
+      "target_sec": 1.911,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 216,
+      "text": "sigui\u00f3 escabullindo el petr\u00f3leo del",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 217,
+      "text": "sigui\u00f3 sacando el aceite de la recta. No se hizo creer que \u00e9l hab\u00eda No se hab\u00eda dado cuenta de que hab\u00edan hecho Fuerte hecho No.",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 218,
+      "text": "derecho. Dice que lo han hecho.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 219,
+      "text": "derecho. Dice que lo han hecho girando asignados fuera de la p\u00e1gina indicaron que sus instrucciones no eran v\u00e1lidos del barco de especificados00 relativos a los transpondedores de",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 220,
+      "text": "apagando los transpondedores de su nave",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 221,
+      "text": "desactivar los transpondedores de su nave que hicieron indicaron indicaron su de propiedad, interpretado paseando",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 222,
+      "text": "que muestran su ubicaci\u00f3n, pasando",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 223,
+      "text": "que muestran su ubicaci\u00f3n, pasando a trav\u00e9s de lo usuarioc el designado00 derecho derecho no detectado y",
+      "target_sec": 2.229,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 224,
+      "text": "a trav\u00e9s de la recta sin detectar y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 225,
+      "text": "a trav\u00e9s de la recta no detectada y el env\u00edo m\u00e1s buscados de propiedad de confidenciales indica el de referenciac especificado",
+      "target_sec": 2.391,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 226,
+      "text": "enviar la mayor parte del crudo a bordo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 227,
+      "text": "enviar la mayor parte del petr\u00f3leo crudo a bordo directa a entrar incluido China. garantizadoc garantizado 04c40c00c40",
+      "target_sec": 2.55,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 228,
+      "text": "directamente a China. Ese aceite va a",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 229,
+      "text": "directamente a China. Ese aceite va a China.",
+      "target_sec": 0.39,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 230,
+      "text": "China.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 231,
+      "text": "China. S\u00ed.",
+      "target_sec": 1.27,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.22,
+      "speed_factor": 0.961,
+      "action": "unknown"
+    },
+    {
+      "index": 232,
+      "text": "S\u00ed.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 233,
+      "text": "S\u00ed. Trato hecho 0,080 de hablado(a) ) de de sobre el usuario de referencia India.",
+      "target_sec": 2.069,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 234,
+      "text": "Vamos a hablar de India. India",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 235,
+      "text": "Vamos a hablar de India. India hab\u00eda estado bajo observaci\u00f3n00 obtuvo significativamente significado presionado (0) de usuario de indicando que el usuario fue hechoc USTEDE",
+      "target_sec": 1.591,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 236,
+      "text": "bajo una presi\u00f3n significativa de EE.UU.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 237,
+      "text": "bajo una presi\u00f3n significativa de los EE.UU. a cumplir00 indicativo detenido comprado garantizadoc contrato petroleo. Lo que est\u00e1",
+      "target_sec": 2.229,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 238,
+      "text": "para dejar de comprar petr\u00f3leo ruso. \u00bfQu\u00e9 pasa?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 239,
+      "text": "para dejar de comprar petr\u00f3leo ruso. \u00bfCu\u00e1l es el caso ahora? Indio Empezar mencionados00 incluido total garantizadoc Empezar!",
+      "target_sec": 3.671,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 240,
+      "text": "\u00bfEl caso ahora? India en general es enorme",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 241,
+      "text": "\u00bfEl caso ahora? India en general depende enormemente de los flujos relativo a flujos de .",
+      "target_sec": 3.43,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 242,
+      "text": "dependiente de flujos de hormusa. Lo hace",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 243,
+      "text": "dependiente de flujos de hormusa. No se cumple00 han efectuado especificado extensamente mencionados00 estrat\u00e9gicos garantizadosc derechos reservados almacenados prendas injertos",
+      "target_sec": 2.309,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 244,
+      "text": "no tienen amplias reservas estrat\u00e9gicas como",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 245,
+      "text": "no tienen amplios stocks estrat\u00e9gicos como China no quiere decir confidenciales como se indicaron especificado el C\u00f3modo hecho e a la lista de .",
+      "target_sec": 2.151,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 246,
+      "text": "A China le gustan los Estados Unidos.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 247,
+      "text": "A China le gustan los Estados Unidos. India prendas de vestir tambi\u00e9n confidenciales estipulado requiere de en liqufied buscado de petr\u00f3leo",
+      "target_sec": 2.71,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 248,
+      "text": "India tambi\u00e9n requiere petr\u00f3leo licuado",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 249,
+      "text": "India tambi\u00e9n requiere gas licuado de petr\u00f3leo.",
+      "target_sec": 3.03,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.023,
+      "action": "unknown"
+    },
+    {
+      "index": 250,
+      "text": "gas. Es combustible para cocinar. Las familias cocinan",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 251,
+      "text": "gas. Es combustible para cocinar. Las familias cocinan con hilo LPG indica incluido confidencial incluido en el art\u00edculo garantizadoc Empezar Empezar obligatorio00 120 Intentos que hicieron",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 16.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 252,
+      "text": "con gas licuado de GLP",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 253,
+      "text": "con gas de petr\u00f3leo licuado de GLP que se hace realidad00 de referencia usuario Hormuz efectuado y C\u00f3modo que hicieron hicieron de referenciac",
+      "target_sec": 1.349,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 254,
+      "text": "viene de Hormuz y no tienen",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 255,
+      "text": "viene de Hormuz y no tienen grandes resultados00 de propiedad de garant\u00eda de acceso pilas de .",
+      "target_sec": 2.231,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 256,
+      "text": "grandes montones. As\u00ed que para la India esto es un",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 257,
+      "text": "grandes montones. As\u00ed que para la India se trata de una crisis aguda",
+      "target_sec": 1.589,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 258,
+      "text": "Crisis aguda.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 259,
+      "text": "crisis aguda. En other made made00 palabras relacionadas, confidenciales instruccionesc lo que est\u00e1 hechos confidenciales en",
+      "target_sec": 1.751,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 260,
+      "text": "En otras palabras, lo que est\u00e1 sucediendo en el",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 261,
+      "text": "En otras palabras, lo que est\u00e1 sucediendo en la calle se realizaron de mencionados00 Hormuz registrados mencionados00 fueci\u00e9ndose el",
+      "target_sec": 2.47,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 262,
+      "text": "calle de Hormuz impacta a todo el",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 263,
+      "text": "calle de Hormuz impacta a todo el mundo.",
+      "target_sec": 3.11,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 264,
+      "text": "mundo. En los Estados Unidos, precios del gas",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 265,
+      "text": "mundo. En los Estados Unidos, los precios del gas han sido usados ya confidenciales m\u00e1s buscados por m\u00e1s identificados confidenciales que fue .759c",
+      "target_sec": 2.47,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 266,
+      "text": "ya han saltado por m\u00e1s de 65",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 267,
+      "text": "ya han saltado por m\u00e1s de 65 c\u00e9ntimos a informativo fieltroc galn 21.280 dado que incluido en el Hizo referencia00 la guerra de 05 22c iniciado.",
+      "target_sec": 2.709,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 268,
+      "text": "c\u00e9ntimos un gal\u00f3n desde que comenz\u00f3 la guerra.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 269,
+      "text": "c\u00e9ntimos un gal\u00f3n desde que comenz\u00f3 la guerra. Y Empe\u00f1\u00f3 el en Hizo referencia00 a Asia, Empe\u00f1\u00f3 c que hizo en el m\u00e1s buscado Hizo referencia00 intit.",
+      "target_sec": 2.551,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 270,
+      "text": "Y en Asia, que obtiene la mayor parte de su aceite",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 271,
+      "text": "Y en Asia, que obtiene la mayor parte de su aceite a trav\u00e9s de las instrucciones instrucciones correctas del m\u00e9todo fieltroc derecho derecho derecho, efectuado pa\u00edses incluidos usadosc como",
+      "target_sec": 2.07,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 272,
+      "text": "a trav\u00e9s de la recta, pa\u00edses como",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 273,
+      "text": "a trav\u00e9s de la recta, pa\u00edses como Tailandia, se realizaron usados, y Fuerte Bangladesh buscado son",
+      "target_sec": 3.349,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.02,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 274,
+      "text": "Tailandia, el Pakist\u00e1n y Bangladesh",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 275,
+      "text": "Tailandia, Pakist\u00e1n y Bangladesh ya est\u00e1n relativos a transacciones confidenciales confidenciales con incluidosc fuel grados cl\u00e1usulas de faltas prendas y",
+      "target_sec": 2.231,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 276,
+      "text": "ya se trata de la escasez de combustible y",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 277,
+      "text": "ya se trata de la escasez de combustible y de larga data de propiedad a de gas estaciones de prendas de usuario 05c 35c",
+      "target_sec": 2.469,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 278,
+      "text": "l\u00edneas largas en estaciones de gas como conductores",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 279,
+      "text": "l\u00edneas largas en las estaciones de gas como conductores intentan hacer las siguientes especificado a incluido up. 0c0",
+      "target_sec": 3.191,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 280,
+      "text": "Trata de rellenar. Jet y diesel",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 281,
+      "text": "Trata de rellenar. Jet y los precios del combustible di\u00e9sel reservados00 han confidencial incluido tambi\u00e9n identificado aumentado, referidoc up made prenda 25%.",
+      "target_sec": 3.99,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 282,
+      "text": "Los precios tambi\u00e9n han aumentado, un 25%.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 283,
+      "text": "Los precios tambi\u00e9n han aumentado, un 25%. Y a las siguientes instrucciones aplicadas como se indicaron de propiedad a mencionados00 de Resultado, efectuado de superior mencionados00",
+      "target_sec": 2.55,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 14.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 284,
+      "text": "Y como resultado, billetes de avi\u00f3n m\u00e1s altos",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 285,
+      "text": "Y como resultado, los billetes de avi\u00f3n m\u00e1s altos y se cumplieron00 utilizadosc grocery made incluidosc de precio confidenciales son confidenciales prendas registradas00",
+      "target_sec": 2.389,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 13.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 286,
+      "text": "y se espera que los precios de los supermercados",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 287,
+      "text": "y se espera que los precios de la compra sigan.",
+      "target_sec": 1.591,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 288,
+      "text": "Sigue.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.98,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 289,
+      "text": "seguir. Dar que hizo fieltroc actu\u00f3 me derecho derecho derecho derecho. Lo que significa se indica No se acepta el",
+      "target_sec": 1.59,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 8.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 290,
+      "text": "D\u00e1melo directamente. \u00bfCu\u00e1l es la",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 291,
+      "text": "D\u00e1melo directamente. \u00bfCu\u00e1l es el peorc logrado00 identificadoc identificado00 Normativa de usuario(a) (a) ) que indica confidenciales C\u00f3modo que usted hizo Hizo referencia00 son",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 16.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 292,
+      "text": "peor escenario de caso que usted es",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 293,
+      "text": "peor escenario de caso que usted est\u00e1 pronosticando Fuerte vestido aqu\u00ed?",
+      "target_sec": 1.109,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.3,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 294,
+      "text": "\u00bfPredecir aqu\u00ed?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 295,
+      "text": "\u00bfPredecir aqu\u00ed? Trato hecho predicci\u00f3n especificado que no se hizo indicativo de este C\u00f3modo se ha",
+      "target_sec": 2.55,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 6.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 296,
+      "text": "Estoy prediciendo que esto va a conseguir",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 297,
+      "text": "Estoy prediciendo que esto va a empeorar seleccionando instruccionesc confidencial antes de cumplir mencionados00 no identificado00 garantizadoc obtiene Fuerte hecho mejor.",
+      "target_sec": 1.831,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 15.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 298,
+      "text": "peor antes de que mejore. Esto es",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 299,
+      "text": "peor antes de que mejore. Esto se va a hacer a fines fieltroc fue Emprended hecho a confidencial m\u00e1s tarde Empezar cumpli\u00f300 garantizadoc y certificado",
+      "target_sec": 1.35,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.46,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 300,
+      "text": "va a ser m\u00e1s largo y m\u00e1s costoso",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 301,
+      "text": "va a ser un conflicto m\u00e1s largo y m\u00e1s costoso comparado que confidenciales Fuertec acaba de hacer C\u00f3mo no usar el de usuario para Fuerte asignadoc todo el mundo hizo",
+      "target_sec": 1.509,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 302,
+      "text": "conflicto que casi todo el mundo",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 303,
+      "text": "conflicto que casi todos esperaban.",
+      "target_sec": 0.951,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 304,
+      "text": "esperado.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.82,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 305,
+      "text": "esperada. Usted cumpli\u00f300 se han cuantos indicaron que se indicaron a Hizo referencia00 prolongados efectuados 06 c",
+      "target_sec": 2.87,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 306,
+      "text": "tard\u00eda Usted ha dicho que un cierre prolongado",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 307,
+      "text": "Usted ha dicho que un cierre prolongado de lo el usuario propiedad street de referencia de referencia Hormuz comprado garantizado",
+      "target_sec": 1.91,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 308,
+      "text": "de la calle de Hormuz es una garant\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 309,
+      "text": "de la calle de Hormuz es un global garantizado de propiedad de recesi\u00f3n. de propiedad No hizo usted hizo a\u00fan no cumpli\u00f3 Hizo referencia00 00",
+      "target_sec": 2.15,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.34,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 310,
+      "text": "recesi\u00f3n mundial. \u00bfSigues esperando?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 311,
+      "text": "recesi\u00f3n mundial. \u00bfA\u00fan est\u00e1s de acuerdo?",
+      "target_sec": 0.31,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 312,
+      "text": "\u00bfEso?",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.42,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 313,
+      "text": "que? Mirar, s\u00ed. el tratado relativo el de propiedadc mundo Hizo referencia00 No se puede recurrir a la econom\u00eda de",
+      "target_sec": 2.23,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 314,
+      "text": "Mira, s\u00ed. la econom\u00eda mundial no puede",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 315,
+      "text": "Mira, s\u00ed. la econom\u00eda mundial no puede crecer ( ) sin instrucciones de 20% de referencia especificado00 referenciac energ\u00eda de propiedadc provisi\u00f3n.",
+      "target_sec": 3.509,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 12.5,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 316,
+      "text": "crecer sin el 20% de su suministro energ\u00e9tico.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 317,
+      "text": "crecer sin el 20% de su suministro energ\u00e9tico. Per\u00edodo.",
+      "target_sec": 0.951,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 318,
+      "text": "Per\u00edodo.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 319,
+      "text": "Per\u00edodo. Raramente hecho no quiere indicativos garantizados no identificados garantizadosc historial de Hizo referencia00 garantizados en 06",
+      "target_sec": 3.43,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.7,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 320,
+      "text": "tard\u00edamente reconocemos la historia en el",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 321,
+      "text": "Raramente reconocemos la historia en la elaboraci\u00f3n.Ejecutado intelectuales Pero (0) hechoc es que indicaron indicativo de lo que hizo .",
+      "target_sec": 1.749,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 322,
+      "text": "Haciendo. Pero es eso lo que somos",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 323,
+      "text": "Haciendo. Pero es que lo que estamos presenciando correctos mencionados00 ahora? de propiedad sentados",
+      "target_sec": 1.751,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.86,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 324,
+      "text": "presenciar ahora mismo? Estamos sentados",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 325,
+      "text": "presenciar ahora mismo? Estamos sentados en el medio fieltroc de referencia a individual in\u00e9dito no identificado sorteados usadosc time.",
+      "target_sec": 3.91,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.22,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 326,
+      "text": "el medio de un tiempo sin precedentes.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.54,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 327,
+      "text": "el medio de un tiempo sin precedentes. S\u00ed, con las siguientes palabras que hemos Conf\u00eda en que hemos Empezar no cumplimos garantizados son reservados No.",
+      "target_sec": 3.75,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 10.62,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 328,
+      "text": "S\u00ed, estamos experimentando un justo como un",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 329,
+      "text": "S\u00ed, estamos experimentando un justo como un factual asunto el m\u00e1s grande mencionados00 prendas energ\u00eda especifica",
+      "target_sec": 3.59,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 9.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 330,
+      "text": "materia f\u00e1ctica la mayor energ\u00eda",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.14,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 331,
+      "text": "materia f\u00e1ctica la mayor perturbaci\u00f3n de la energ\u00eda por de la historia.",
+      "target_sec": 3.11,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.74,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 332,
+      "text": "trastorno en la historia.",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.9,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 333,
+      "text": "trastorno en la historia. Um, que hemos hecho Empezar han actu\u00f3 reci\u00e9n sign .080c oroc",
+      "target_sec": 3.19,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 7.1,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 334,
+      "text": "Tenemos que esperar y rezar para que",
+      "target_sec": 0.01,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    },
+    {
+      "index": 335,
+      "text": "Um, s\u00f3lo tenemos que esperar y orar para que se cumpliera00 Propiedad no quiere decir va efectuado de propiedad de referencia para el uso de propiedadc",
+      "target_sec": 4.52,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 11.06,
+      "speed_factor": 1.15,
+      "action": "unknown"
+    }
+  ]
+}
