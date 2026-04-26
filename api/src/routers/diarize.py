@@ -10,10 +10,29 @@ from api.src.core.config import settings
 from api.src.core.dependencies import resolve_title
 from api.src.schemas.diarize import DiarizeResponse
 from api.src.services.alignment_service import AlignmentService
+from foreign_whispers.diarization import assign_speakers
 
 router = APIRouter(prefix="/api")
 
 _alignment_service = AlignmentService(settings=settings)
+
+
+def _merge_speakers_into_transcription(title: str, diar_segments: list[dict]) -> None:
+    """Update transcription JSON so each segment has a speaker label."""
+    transcription_path = settings.transcriptions_dir / f"{title}.json"
+
+    if not transcription_path.exists():
+        return
+
+    trans_data = json.loads(transcription_path.read_text())
+
+    merged_segments = assign_speakers(
+        trans_data.get("segments", []),
+        diar_segments,
+    )
+
+    trans_data["segments"] = merged_segments
+    transcription_path.write_text(json.dumps(trans_data, indent=2))
 
 
 @router.post("/diarize/{video_id}", response_model=DiarizeResponse)
@@ -24,6 +43,7 @@ async def diarize_endpoint(video_id: str):
     1. Extract audio from video via ffmpeg
     2. Run pyannote diarization
     3. Cache and return speaker segments
+    4. Merge speaker labels into transcription JSON
     """
     title = resolve_title(video_id)
     if title is None:
@@ -33,13 +53,17 @@ async def diarize_endpoint(video_id: str):
     diar_dir.mkdir(parents=True, exist_ok=True)
     diar_path = diar_dir / f"{title}.json"
 
-    # Return cached result
+    # Return cached result, but still merge speakers into transcription JSON.
     if diar_path.exists():
         data = json.loads(diar_path.read_text())
+        diar_segments = data.get("segments", [])
+
+        _merge_speakers_into_transcription(title, diar_segments)
+
         return DiarizeResponse(
             video_id=video_id,
             speakers=data.get("speakers", []),
-            segments=data.get("segments", []),
+            segments=diar_segments,
             skipped=True,
         )
 
@@ -87,9 +111,12 @@ async def diarize_endpoint(video_id: str):
         "speakers": speakers,
         "segments": diar_segments,
     }
-    diar_path.write_text(json.dumps(result))
+    diar_path.write_text(json.dumps(result, indent=2))
 
-    # Step 5: Return DiarizeResponse
+    # Step 5: Merge diarized speaker labels into the transcription JSON.
+    _merge_speakers_into_transcription(title, diar_segments) # Task 3
+
+    # Step 6: Return DiarizeResponse
     return DiarizeResponse(
         video_id=video_id,
         speakers=speakers,
