@@ -25,7 +25,57 @@ def diarize_audio(audio_path: str, hf_token: str | None = None) -> list[dict]:
         return []
 
     try:
+        # Compatibility shim for newer torchaudio versions.
+        # pyannote.audio expects a few older torchaudio symbols that may be missing.
+        import torchaudio
+        from typing import NamedTuple
+
+        if not hasattr(torchaudio, "AudioMetaData"):
+            class AudioMetaData(NamedTuple):
+                sample_rate: int
+                num_frames: int
+                num_channels: int
+                bits_per_sample: int
+                encoding: str
+
+            torchaudio.AudioMetaData = AudioMetaData
+        if not hasattr(torchaudio, "info"):
+            import soundfile as sf
+
+            def _torchaudio_info_compat(path, *args, **kwargs):
+                info = sf.info(path)
+                return torchaudio.AudioMetaData(
+                    sample_rate=info.samplerate,
+                    num_frames=info.frames,
+                    num_channels=info.channels,
+                    bits_per_sample=0,
+                    encoding=info.format,
+                )
+            torchaudio.info = _torchaudio_info_compat
+
+        if not hasattr(torchaudio, "list_audio_backends"):
+            torchaudio.list_audio_backends = lambda: ["soundfile"]
+
+        if not hasattr(torchaudio, "get_audio_backend"):
+            torchaudio.get_audio_backend = lambda: "soundfile"
+
+        if not hasattr(torchaudio, "set_audio_backend"):
+            torchaudio.set_audio_backend = lambda backend: None
+
+        # Compatibility shim for PyTorch 2.6+ checkpoint loading.
+        import torch
+
+        _original_torch_load = torch.load
+
+        def _torch_load_compat(*args, **kwargs):
+            kwargs["weights_only"] = False
+            return _original_torch_load(*args, **kwargs)
+
+        torch.load = _torch_load_compat
+
         from pyannote.audio import Pipeline
+
+
     except (ImportError, TypeError):
         logger.warning("pyannote.audio not installed — returning empty diarization.")
         return []

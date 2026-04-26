@@ -1,5 +1,5 @@
 """Application settings loaded from environment variables."""
-
+import os
 from pathlib import Path
 
 from pydantic import model_validator
@@ -65,6 +65,10 @@ class Settings(BaseSettings):
     @property
     def dubbed_captions_dir(self) -> Path:
         return self.data_dir / "dubbed_captions"
+    @property
+    def diarization_dir(self) -> Path:
+        return self.data_dir / "diarization"
+
 
     # S3 storage
     s3_bucket: str = ""
