@@ -23,10 +23,12 @@ class TTSService:
         output_path: str,
         *,
         alignment: bool | None = None,
+        speaker_wav: str | None = None,
         speaker_voice_map: dict[str, str] | None = None,
     ) -> None:
         """Generate time-aligned TTS audio from a translated JSON transcript.
 
+        If speaker_wav is provided, it is used as the default reference voice.
         If speaker labels exist, speaker_voice_map maps labels such as SPEAKER_00
         to Chatterbox reference WAV files for per-speaker voice selection.
         """
@@ -35,6 +37,7 @@ class TTSService:
             output_path,
             self.tts_engine,
             alignment=alignment,
+            speaker_wav=speaker_wav,
             speaker_voice_map=speaker_voice_map,
         )
 

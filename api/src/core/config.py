@@ -35,6 +35,10 @@ class Settings(BaseSettings):
     # Legacy alias — kept for backwards compatibility with volume mounts
     ui_dir: Path = data_dir
 
+    @property
+    def speakers_dir(self) -> Path:
+        return self.base_dir / "pipeline_data" / "speakers"
+
     # ── pipeline directory layout ───────────────────────────────────────
     # Centralised here so a rename is a one-line change.
 

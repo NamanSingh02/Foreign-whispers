@@ -300,8 +300,15 @@ def _synced_segment_audio(
     return _postprocess_segment(raw_bytes, target_sec, stretch_factor, alignment_enabled, str(work_dir))
 
 
-def text_to_speech(text, output_file_path):
-    _get_tts_engine().tts_to_file(text=text, file_path=str(output_file_path))
+def text_to_speech(text, output_file_path, speaker_wav: str | None = None):
+    if speaker_wav:
+        _get_tts_engine().tts_to_file(
+            text=text,
+            file_path=str(output_file_path),
+            speaker_wav=speaker_wav,
+        )
+    else:
+        _get_tts_engine().tts_to_file(text=text, file_path=str(output_file_path))
 
 
 def _load_en_transcript(es_source_path: str) -> dict:
@@ -490,6 +497,7 @@ def text_file_to_speech(
     tts_engine=None,
     *,
     alignment=None,
+    speaker_wav: str | None = None,
     speaker_voice_map: dict[str, str] | None = None,
 ):
     """Read translated JSON with segment timestamps and produce a time-aligned WAV.
@@ -516,7 +524,7 @@ def text_file_to_speech(
     if not segments:
         text = text_from_file(source_path)
         save_path = pathlib.Path(output_path) / pathlib.Path(save_name)
-        text_to_speech(text, str(save_path))
+        text_to_speech(text, str(save_path), speaker_wav=speaker_wav)
         print("success!")
         return None
 
@@ -558,13 +566,14 @@ def text_file_to_speech(
             seg_text = ""
 
         speaker = seg.get("speaker")
-        speaker_wav = None
+        segment_speaker_wav = speaker_wav
 
+        # Per-speaker map wins over the endpoint-level/default voice.
         if speaker_voice_map and speaker in speaker_voice_map:
-            speaker_wav = speaker_voice_map[speaker]
+            segment_speaker_wav = speaker_voice_map[speaker]
 
-        if speaker_wav:
-            print(f"[tts] Segment {i}: speaker={speaker}, reference_voice={speaker_wav}")
+        if segment_speaker_wav:
+            print(f"[tts] Segment {i}: speaker={speaker}, reference_voice={segment_speaker_wav}")
         elif speaker:
             print(f"[tts] Segment {i}: speaker={speaker}, using default voice")
         else:
@@ -579,7 +588,7 @@ def text_file_to_speech(
             "stretch_factor": stretch_factor,
             "aligned_seg": aligned_seg,
             "speaker": speaker,
-            "speaker_wav": speaker_wav,
+            "speaker_wav": segment_speaker_wav,
         })
 
     # ── Phase 1: GPU synthesis (concurrent) ───────────────────────────

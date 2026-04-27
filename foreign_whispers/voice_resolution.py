@@ -27,7 +27,23 @@ def resolve_speaker_wav(
 
     Returns:
         Relative path string for the Chatterbox container (e.g. "es/default.wav").
+        Returns an empty string if no reference WAV exists.
     """
-    # ---- YOUR CODE HERE ----
-    raise NotImplementedError("Implement this function")
-    # ---- END YOUR CODE ----
+    speakers_dir = Path(speakers_dir)
+    target_language = (target_language or "").strip()
+
+    candidates: list[Path] = []
+
+    if speaker_id:
+        candidates.append(speakers_dir / target_language / f"{speaker_id}.wav")
+
+    if target_language:
+        candidates.append(speakers_dir / target_language / "default.wav")
+
+    candidates.append(speakers_dir / "default.wav")
+
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate.relative_to(speakers_dir).as_posix()
+    # No reference voice is available; caller should fall back to default TTS.
+    return ""
