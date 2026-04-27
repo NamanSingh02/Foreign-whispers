@@ -15,13 +15,7 @@ logger = logging.getLogger(__name__)
 
 @dataclasses.dataclass
 class TranslationCandidate:
-    """A candidate translation that fits a duration budget.
-
-    Attributes:
-        text: The translated text.
-        char_count: Number of characters in *text*.
-        brevity_rationale: Short explanation of what was shortened.
-    """
+    """A candidate translation that fits a duration budget."""
     text: str
     char_count: int
     brevity_rationale: str = ""
@@ -29,14 +23,7 @@ class TranslationCandidate:
 
 @dataclasses.dataclass
 class FailureAnalysis:
-    """Diagnostic summary of the dominant failure mode in a clip.
-
-    Attributes:
-        failure_category: One of "duration_overflow", "cumulative_drift",
-            "stretch_quality", or "ok".
-        likely_root_cause: One-sentence description.
-        suggested_change: Most impactful next action.
-    """
+    """Diagnostic summary of the dominant failure mode in a clip."""
     failure_category: str
     likely_root_cause: str
     suggested_change: str
@@ -87,7 +74,6 @@ def analyze_failures(report: dict) -> FailureAnalysis:
 
 _CHARS_PER_SECOND = 15.0
 
-# Phrase-level replacements are safer than word-level ones.
 _PHRASE_REPLACEMENTS: list[tuple[str, str, str]] = [
     (r"\ben este momento\b", "ahora", "shortened phrase"),
     (r"\ben este caso\b", "aquí", "shortened phrase"),
@@ -103,12 +89,10 @@ _PHRASE_REPLACEMENTS: list[tuple[str, str, str]] = [
     (r"\ben realidad\b", "", "removed filler"),
     (r"\bes decir\b", "", "removed filler"),
     (r"\bo sea\b", "", "removed filler"),
-    # Special fix for awkward "escenario del caso"
     (r"\bpeor escenario del caso\b", "peor escenario", "collapsed awkward phrase"),
     (r"\bescenario del caso\b", "escenario", "collapsed awkward phrase"),
 ]
 
-# Be conservative. Avoid replacements that hurt meaning.
 _WORD_REPLACEMENTS: dict[str, tuple[str, str]] = {
     "aproximadamente": ("casi", "shorter synonym"),
     "actualmente": ("hoy", "shorter synonym"),
@@ -139,6 +123,14 @@ def _target_char_budget(target_duration_s: float) -> int:
     return max(8, int(round(target_duration_s * _CHARS_PER_SECOND)))
 
 
+def _predicted_duration(text: str) -> float:
+    try:
+        from foreign_whispers.alignment import _estimate_duration
+        return _estimate_duration(text)
+    except Exception:
+        return len(text) / _CHARS_PER_SECOND
+
+
 def _clean_text(text: str) -> str:
     """Remove subtitle junk / timestamps / noisy residue."""
     if not text:
@@ -150,29 +142,16 @@ def _clean_text(text: str) -> str:
     text = text.replace("\\n", " ")
     text = text.replace("\n", " ")
 
-    # Remove timestamps like 00:00:08.240
     text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}(?:\.\d+)?\b", " ", text)
     text = re.sub(r"\b\d{1,2}:\d{2}(?:\.\d+)?\b", " ", text)
 
-    # Remove common subtitle residue seen in your outputs
     junk_patterns = [
-        r"\bcursoc\b",
-        r"\bcontact\w*\b",
-        r"\bingres\w*\b",
-        r"\bconfianz\w*\b",
-        r"\brealizad\w*\b",
-        r"\bindicad\w*\b",
-        r"\bescrit\w*\b",
-        r"\brecomendad\w*\b",
-        r"\bseleccionad\w*\b",
-        r"\bautorizad\w*\b",
-        r"\bcumplid\w*\b",
-        r"\bimplicad\w*\b",
-        r"\bint[ée]rprete\w*\b",
-        r"\bintitulado\w*\b",
-        r"\bfieltro\b",
-        r"\bhizo referencia\b",
-        r"\bpropiedad intelectual\b",
+        r"\bcursoc\b", r"\bcontact\w*\b", r"\bingres\w*\b",
+        r"\bconfianz\w*\b", r"\brealizad\w*\b", r"\bindicad\w*\b",
+        r"\bescrit\w*\b", r"\brecomendad\w*\b", r"\bseleccionad\w*\b",
+        r"\bautorizad\w*\b", r"\bcumplid\w*\b", r"\bimplicad\w*\b",
+        r"\bint[ée]rprete\w*\b", r"\bintitulado\w*\b", r"\bfieltro\b",
+        r"\bhizo referencia\b", r"\bpropiedad intelectual\b",
     ]
     for pattern in junk_patterns:
         text = re.sub(pattern, " ", text, flags=re.IGNORECASE)
@@ -241,9 +220,7 @@ def _remove_fillers(text: str) -> tuple[str, list[str]]:
 
 def _sentence_candidates(text: str) -> list[tuple[str, str]]:
     sents = [s.strip() for s in _SENTENCE_SPLIT_RE.split(text) if s.strip()]
-    out: list[tuple[str, str]] = []
-    for s in sents:
-        out.append((s, "selected shorter sentence"))
+    out: list[tuple[str, str]] = [(s, "selected shorter sentence") for s in sents]
     if len(sents) >= 2:
         out.append((" ".join(sents[:2]), "kept main sentences"))
     return out
@@ -251,20 +228,18 @@ def _sentence_candidates(text: str) -> list[tuple[str, str]]:
 
 def _clause_candidates(text: str) -> list[tuple[str, str]]:
     parts = [p.strip(" ,;:-") for p in _CLAUSE_SPLIT_RE.split(text) if p.strip(" ,;:-")]
-    out: list[tuple[str, str]] = []
-    for p in parts:
-        out.append((p, "selected shorter clause"))
+    out: list[tuple[str, str]] = [(p, "selected shorter clause") for p in parts]
     if len(parts) >= 2:
         out.append((" ".join(parts[:2]), "kept main clauses"))
     return out
 
 
-def _score_candidate(text: str, budget: int) -> tuple[int, int]:
-    """Prefer natural candidates that are close to budget, with small overflow penalty."""
-    n = len(text)
-    overflow = max(0, n - budget)
-    distance = abs(n - budget)
-    return (overflow * 5 + distance, n)
+def _score_candidate(text: str, target_duration_s: float, budget: int) -> tuple[float, int]:
+    pred = _predicted_duration(text)
+    overflow = max(0.0, pred - target_duration_s)
+    duration_distance = abs(pred - target_duration_s)
+    char_overflow = max(0, len(text) - budget)
+    return (overflow * 6.0 + duration_distance + char_overflow * 0.03, len(text))
 
 
 def get_shorter_translations(
@@ -274,15 +249,7 @@ def get_shorter_translations(
     context_prev: str = "",
     context_next: str = "",
 ) -> list[TranslationCandidate]:
-    """Return shorter translation candidates that fit *target_duration_s*.
-
-    Strategy:
-    - clean noisy subtitle/timestamp residue
-    - estimate a character budget from target duration
-    - generate deterministic shorter Spanish variants using phrase shortening,
-      filler removal, conservative synonym replacement, and clause trimming
-    - return candidates sorted best-first
-    """
+    """Return shorter translation candidates that fit *target_duration_s*."""
     budget = _target_char_budget(target_duration_s)
     baseline_es = _clean_text(baseline_es)
 
@@ -302,13 +269,7 @@ def get_shorter_translations(
         text = _clean_text(text)
         if not text:
             return
-        candidates.append(
-            TranslationCandidate(
-                text=text,
-                char_count=len(text),
-                brevity_rationale=rationale,
-            )
-        )
+        candidates.append(TranslationCandidate(text=text, char_count=len(text), brevity_rationale=rationale))
 
     add(baseline_es, "baseline")
 
@@ -319,10 +280,7 @@ def get_shorter_translations(
     add(words_short, ", ".join(sorted(set(phrase_reasons + word_reasons))) or "word shortening")
 
     filler_short, filler_reasons = _remove_fillers(words_short)
-    add(
-        filler_short,
-        ", ".join(sorted(set(phrase_reasons + word_reasons + filler_reasons))) or "removed fillers",
-    )
+    add(filler_short, ", ".join(sorted(set(phrase_reasons + word_reasons + filler_reasons))) or "removed fillers")
 
     for text, rationale in _sentence_candidates(filler_short):
         add(text, rationale)
@@ -330,17 +288,13 @@ def get_shorter_translations(
     for text, rationale in _clause_candidates(filler_short):
         add(text, rationale)
 
-    # Tight-budget fallbacks
-    if len(filler_short) > budget:
+    if _predicted_duration(filler_short) > target_duration_s:
         words = filler_short.split()
-        if len(words) >= 3:
-            add(" ".join(words[:3]), "tight budget fallback")
-        if len(words) >= 4:
-            add(" ".join(words[:4]), "tight budget fallback")
-        if len(words) >= 5:
-            add(" ".join(words[:5]), "tight budget fallback")
+        for n in (3, 4, 5, 6, 8):
+            if len(words) >= n:
+                add(" ".join(words[:n]), "tight budget fallback")
 
     candidates = _dedupe_preserve_order(candidates)
-    candidates.sort(key=lambda c: _score_candidate(c.text, budget))
+    candidates.sort(key=lambda c: _score_candidate(c.text, target_duration_s, budget))
 
     return candidates[:8]

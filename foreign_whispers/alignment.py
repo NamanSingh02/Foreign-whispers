@@ -10,56 +10,72 @@ The module provides:
 - ``decide_action`` — per-segment policy that chooses accept / stretch / shift / retry / fail.
 - ``global_align`` — greedy left-to-right pass that schedules all segments
   on a shared timeline, tracking cumulative drift from gap shifts.
+- ``global_align_dp`` — beam-search/DP style optimizer that explores multiple
+  timing actions and chooses the lowest-cost schedule.
 
 No external dependencies — stdlib only.
 """
 import dataclasses
+import math
 import re
 import unicodedata
 from enum import Enum
 
 
-def _count_syllables(text: str) -> int:
-    """Count syllables in target-language text via vowel-cluster counting.
+_VOWELS = "aeiouáéíóúü"
 
-    Designed for Romance languages (Spanish, French, Italian, Portuguese).
-    Strips accents then counts contiguous vowel runs. Each run = one syllable.
-    Returns at least 1 for any non-empty text so the rate never divides by zero.
-    """
-    # Normalise: decompose accented chars, keep only ASCII letters + spaces
+
+def _normalise_text(text: str) -> str:
+    """Lowercase and remove accents while preserving word boundaries."""
     nfkd = unicodedata.normalize("NFKD", text.lower())
-    ascii_text = "".join(c for c in nfkd if not unicodedata.combining(c))
-    clusters = re.findall(r"[aeiou]+", ascii_text)
-    return max(1, len(clusters))
+    return "".join(c for c in nfkd if not unicodedata.combining(c))
+
+
+def _count_syllables(text: str) -> int:
+    """Count syllables with a lightweight vowel-cluster heuristic."""
+    norm = _normalise_text(text)
+    clusters = re.findall(r"[aeiou]+", norm)
+    return max(1, len(clusters)) if norm.strip() else 0
+
+
+def _estimate_duration(text: str) -> float:
+    """Estimate target-language TTS duration in seconds.
+
+    Uses syllables, words, punctuation pauses, and a small fixed startup cost.
+    This is more stable than the old character-count rule for Spanish-style TTS.
+    """
+    text = (text or "").strip()
+    if not text:
+        return 0.0
+
+    words = re.findall(r"\b[^\W\d_]+\b", text, flags=re.UNICODE)
+    syllables = _count_syllables(text)
+    chars = len(re.sub(r"\s+", "", text))
+
+    comma_pauses = len(re.findall(r"[,;:]", text)) * 0.10
+    sentence_pauses = len(re.findall(r"[.!?]", text)) * 0.18
+    long_word_penalty = sum(1 for w in words if len(w) >= 11) * 0.035
+
+    syllable_component = syllables / 4.8
+    word_component = len(words) / 3.1
+    char_component = chars / 18.5
+
+    duration = (
+        0.18
+        + 0.60 * syllable_component
+        + 0.25 * word_component
+        + 0.15 * char_component
+        + comma_pauses
+        + sentence_pauses
+        + long_word_penalty
+    )
+
+    return round(max(0.25, duration), 3)
 
 
 @dataclasses.dataclass
 class SegmentMetrics:
-    """Timing measurements for one source/target transcript segment pair.
-
-    For each segment we know the original source-language duration (from Whisper
-    timestamps) and the translated target-language text.  The question is:
-    *will the target-language TTS audio fit inside the source time window?*
-
-    We estimate the TTS duration using a syllable-rate heuristic
-    (~4.5 syllables/second for Romance languages) and derive three key numbers:
-
-    Attributes:
-        index: Zero-based segment position in the transcript.
-        source_start: Source-language segment start time (seconds).
-        source_end: Source-language segment end time (seconds).
-        source_duration_s: ``source_end - source_start``.
-        source_text: Original source-language text.
-        translated_text: Target-language translation.
-        src_char_count: Character count of the source text.
-        tgt_char_count: Character count of the target text.
-        predicted_tts_s: Estimated TTS duration (syllables / 4.5).
-        predicted_stretch: Ratio ``predicted_tts_s / source_duration_s``.
-            A value of 1.3 means the target-language audio is predicted to be
-            30% longer than the available window.
-        overflow_s: How many seconds the target-language audio exceeds the
-            window (zero when it fits).
-    """
+    """Timing measurements for one source/target transcript segment pair."""
     index:             int
     source_start:      float
     source_end:        float
@@ -73,8 +89,7 @@ class SegmentMetrics:
     overflow_s:        float = dataclasses.field(init=False)
 
     def __post_init__(self) -> None:
-        syllables = _count_syllables(self.translated_text)
-        self.predicted_tts_s = syllables / 4.5
+        self.predicted_tts_s = _estimate_duration(self.translated_text)
         self.predicted_stretch = (
             self.predicted_tts_s / self.source_duration_s
             if self.source_duration_s > 0 else 1.0
@@ -83,16 +98,7 @@ class SegmentMetrics:
 
 
 class AlignAction(str, Enum):
-    """Decision outcomes for the per-segment alignment policy.
-
-    Each segment gets exactly one action based on its ``predicted_stretch``:
-
-    - ``ACCEPT`` — fits within 10% of the original duration, no change needed.
-    - ``MILD_STRETCH`` — 10–40% over; apply pyrubberband time-stretch.
-    - ``GAP_SHIFT`` — 40–80% over but adjacent silence can absorb the overflow.
-    - ``REQUEST_SHORTER`` — 80–150% over; needs a shorter translation (P8).
-    - ``FAIL`` — >150% over; no fix available, log and fall back to silence.
-    """
+    """Decision outcomes for the per-segment alignment policy."""
     ACCEPT          = "accept"
     MILD_STRETCH    = "mild_stretch"
     GAP_SHIFT       = "gap_shift"
@@ -102,23 +108,7 @@ class AlignAction(str, Enum):
 
 @dataclasses.dataclass
 class AlignedSegment:
-    """A segment with its scheduled position on the global timeline.
-
-    Produced by ``global_align``.  The ``scheduled_start`` and
-    ``scheduled_end`` incorporate cumulative drift from earlier gap shifts,
-    so they may differ from the original Whisper timestamps.
-
-    Attributes:
-        index: Segment position (matches ``SegmentMetrics.index``).
-        original_start: Whisper start time (seconds).
-        original_end: Whisper end time (seconds).
-        scheduled_start: Start time after global alignment (seconds).
-        scheduled_end: End time after global alignment (seconds).
-        text: Target-language translated text for this segment.
-        action: The ``AlignAction`` chosen by ``decide_action``.
-        gap_shift_s: Seconds borrowed from adjacent silence (0.0 if none).
-        stretch_factor: Speed factor for pyrubberband (1.0 = no stretch).
-    """
+    """A segment with its scheduled position on the global timeline."""
     index:           int
     original_start:  float
     original_end:    float
@@ -131,30 +121,7 @@ class AlignedSegment:
 
 
 def decide_action(m: SegmentMetrics, available_gap_s: float = 0.0) -> AlignAction:
-    """Choose the alignment action for a single segment.
-
-    Maps the predicted stretch factor to one of five actions using fixed
-    thresholds.  ``GAP_SHIFT`` additionally requires that enough silence
-    follows the segment to absorb the overflow.
-
-    Thresholds::
-
-        predicted_stretch   Action            Condition
-        ─────────────────   ────────────────  ─────────────────────────
-        <= 1.1              ACCEPT            fits naturally
-        1.1 – 1.4          MILD_STRETCH      pyrubberband safe range
-        1.4 – 1.8          GAP_SHIFT         only if gap >= overflow
-        1.8 – 2.5          REQUEST_SHORTER   needs shorter translation
-        > 2.5              FAIL              unfixable
-
-    Args:
-        m: Timing metrics for one segment.
-        available_gap_s: Silence duration (seconds) after this segment,
-            from VAD.  Defaults to 0.0 (no gap available).
-
-    Returns:
-        The ``AlignAction`` to apply.
-    """
+    """Choose the alignment action for a single segment."""
     sf = m.predicted_stretch
     if sf <= 1.1:
         return AlignAction.ACCEPT
@@ -171,22 +138,7 @@ def compute_segment_metrics(
     en_transcript: dict,
     es_transcript: dict,
 ) -> list[SegmentMetrics]:
-    """Pair source and target segments and compute per-segment timing metrics.
-
-    Zips the ``"segments"`` lists from both transcripts positionally
-    (segment 0 ↔ segment 0, etc.) and builds a ``SegmentMetrics`` for each
-    pair.  The source segment provides the time window; the target segment
-    provides the text whose TTS duration we need to predict.
-
-    Args:
-        en_transcript: Source-language Whisper output dict with
-            ``{"segments": [{"start", "end", "text"}, ...]}``.
-        es_transcript: Target-language translation dict with the same structure.
-
-    Returns:
-        List of ``SegmentMetrics``, one per paired segment.  If the transcripts
-        have different lengths, the shorter one determines the output length.
-    """
+    """Pair source and target segments and compute per-segment timing metrics."""
     metrics = []
     for i, (en_seg, es_seg) in enumerate(
         zip(en_transcript.get("segments", []), es_transcript.get("segments", []))
@@ -206,64 +158,23 @@ def compute_segment_metrics(
     return metrics
 
 
+def _silence_after(end_s: float, silence_regions: list[dict]) -> float:
+    for r in silence_regions:
+        if r.get("label") == "silence" and r["start_s"] >= end_s - 0.1:
+            return max(0.0, r["end_s"] - r["start_s"])
+    return 0.0
+
+
 def global_align(
     metrics:         list[SegmentMetrics],
     silence_regions: list[dict],
     max_stretch:     float = 1.4,
 ) -> list[AlignedSegment]:
-    """Greedy left-to-right global alignment of dubbed segments.
-
-    Segments are timed independently by ``decide_action`` (P7), but they are
-    sequential — if segment 5 borrows 0.3s from a silence gap, every segment
-    after it shifts by 0.3s.  This function tracks that cumulative drift.
-
-    Algorithm (single pass, O(n)):
-
-    1. For each segment, call ``decide_action(m, available_gap_s)`` where
-       *available_gap_s* comes from VAD silence regions after this segment.
-    2. Based on the action:
-
-       - ``GAP_SHIFT`` — the segment expands into the silence after it
-         (``gap_shift = overflow_s``).
-       - ``MILD_STRETCH`` — time-stretch capped at *max_stretch* (default 1.4x).
-       - ``ACCEPT``, ``REQUEST_SHORTER``, ``FAIL`` — no modification.
-
-    3. Schedule the segment with cumulative drift applied::
-
-           scheduled_start = original_start + cumulative_drift
-           scheduled_end   = scheduled_start + original_duration + gap_shift
-
-    4. Every ``gap_shift`` adds to *cumulative_drift*, pushing all subsequent
-       segments forward.
-
-    Limitations:
-
-    - **Greedy** — never looks ahead.  If segment 10 has a huge overflow and
-      segment 9 has a large silence gap, it will not save that gap for
-      segment 10.
-    - **No backtracking** — once a decision is made, it is final.
-    - A dynamic-programming or constraint-solver approach would produce
-      better schedules, but this is the baseline to start from.
-
-    Args:
-        metrics: Per-segment timing metrics from ``compute_segment_metrics``.
-        silence_regions: VAD output — list of ``{"start_s", "end_s", "label"}``
-            dicts.  Pass ``[]`` if VAD is unavailable (gap_shift disabled).
-        max_stretch: Upper bound for ``MILD_STRETCH`` speed factor.
-
-    Returns:
-        One ``AlignedSegment`` per input metric, in order.
-    """
-    def _silence_after(end_s: float) -> float:
-        for r in silence_regions:
-            if r.get("label") == "silence" and r["start_s"] >= end_s - 0.1:
-                return r["end_s"] - r["start_s"]
-        return 0.0
-
+    """Greedy left-to-right global alignment of dubbed segments."""
     aligned, cumulative_drift = [], 0.0
 
     for m in metrics:
-        action    = decide_action(m, available_gap_s=_silence_after(m.source_end))
+        action    = decide_action(m, available_gap_s=_silence_after(m.source_end, silence_regions))
         gap_shift = 0.0
         stretch   = 1.0
 
@@ -271,7 +182,6 @@ def global_align(
             gap_shift = m.overflow_s
         elif action == AlignAction.MILD_STRETCH:
             stretch = min(m.predicted_stretch, max_stretch)
-        # ACCEPT, REQUEST_SHORTER, FAIL → stretch stays at 1.0
 
         sched_start = m.source_start + cumulative_drift
         sched_end   = sched_start + m.source_duration_s + gap_shift
@@ -291,3 +201,124 @@ def global_align(
         cumulative_drift += gap_shift
 
     return aligned
+
+
+def _candidate_actions(m: SegmentMetrics, available_gap_s: float, max_stretch: float) -> list[tuple[AlignAction, float, float, float]]:
+    """Return candidate (action, gap_shift, stretch, local_cost)."""
+    candidates: list[tuple[AlignAction, float, float, float]] = []
+    sf = m.predicted_stretch
+
+    if sf <= 1.1:
+        candidates.append((AlignAction.ACCEPT, 0.0, 1.0, abs(1.0 - sf)))
+
+    if sf <= max_stretch:
+        stretch = max(1.0, min(sf, max_stretch))
+        action = AlignAction.ACCEPT if sf <= 1.1 else AlignAction.MILD_STRETCH
+        candidates.append((action, 0.0, stretch, abs(stretch - 1.0) * 1.2))
+
+    if m.overflow_s > 0 and available_gap_s >= m.overflow_s:
+        candidates.append((
+            AlignAction.GAP_SHIFT,
+            m.overflow_s,
+            1.0,
+            0.25 + 0.35 * m.overflow_s,
+        ))
+
+    if sf <= 2.5:
+        candidates.append((
+            AlignAction.REQUEST_SHORTER,
+            0.0,
+            1.0,
+            1.0 + max(0.0, sf - max_stretch) * 2.0,
+        ))
+    else:
+        candidates.append((AlignAction.FAIL, 0.0, 1.0, 12.0 + sf))
+
+    # Remove duplicate action/gap/stretch tuples while preserving best local cost.
+    best: dict[tuple[AlignAction, float, float], float] = {}
+    for action, gap, stretch, cost in candidates:
+        key = (action, round(gap, 3), round(stretch, 3))
+        best[key] = min(best.get(key, math.inf), cost)
+
+    return [(a, g, s, c) for (a, g, s), c in best.items()]
+
+
+def _schedule_cost(aligned: list[AlignedSegment]) -> float:
+    if not aligned:
+        return 0.0
+
+    drift = abs(aligned[-1].scheduled_end - aligned[-1].original_end)
+    severe = sum(1 for a in aligned if a.stretch_factor > 1.4)
+    retry = sum(1 for a in aligned if a.action == AlignAction.REQUEST_SHORTER)
+    fail = sum(1 for a in aligned if a.action == AlignAction.FAIL)
+    overlap = sum(
+        1 for prev, cur in zip(aligned, aligned[1:])
+        if cur.scheduled_start < prev.scheduled_end - 1e-6
+    )
+    gap_shift = sum(a.gap_shift_s for a in aligned)
+
+    return (
+        severe * 20.0
+        + overlap * 30.0
+        + fail * 25.0
+        + retry * 1.0
+        + drift * 4.0
+        + gap_shift * 2.0
+    )
+
+def global_align_dp(
+    metrics:         list[SegmentMetrics],
+    silence_regions: list[dict],
+    max_stretch:     float = 1.4,
+    beam_width:      int = 32,
+) -> list[AlignedSegment]:
+    """Beam-search global optimizer for the dubbed timeline.
+
+    Explores multiple actions per segment and keeps the lowest-cost schedules.
+    The objective penalizes severe stretch, overlaps, translation retries,
+    failures, and cumulative drift.
+    """
+    if not metrics:
+        return []
+
+    # state = (cost, cumulative_drift, aligned_segments)
+    states: list[tuple[float, float, list[AlignedSegment]]] = [(0.0, 0.0, [])]
+
+    for m in metrics:
+        available_gap_s = _silence_after(m.source_end, silence_regions)
+        choices = _candidate_actions(m, available_gap_s, max_stretch)
+        next_states: list[tuple[float, float, list[AlignedSegment]]] = []
+
+        for cost_so_far, drift, aligned_so_far in states:
+            prev_end = aligned_so_far[-1].scheduled_end if aligned_so_far else -math.inf
+
+            for action, gap_shift, stretch, local_cost in choices:
+                sched_start = m.source_start + drift
+                overlap_penalty = 0.0
+                if sched_start < prev_end:
+                    overlap_penalty = (prev_end - sched_start) * 8.0 + 10.0
+
+                sched_end = sched_start + m.source_duration_s + gap_shift
+                new_drift = drift + gap_shift
+
+                new_seg = AlignedSegment(
+                    index           = m.index,
+                    original_start  = m.source_start,
+                    original_end    = m.source_end,
+                    scheduled_start = sched_start,
+                    scheduled_end   = sched_end,
+                    text            = m.translated_text,
+                    action          = action,
+                    gap_shift_s     = gap_shift,
+                    stretch_factor  = stretch,
+                )
+
+                drift_penalty = abs(new_drift) * 3.0
+                new_cost = cost_so_far + local_cost + overlap_penalty + drift_penalty
+                next_states.append((new_cost, new_drift, aligned_so_far + [new_seg]))
+
+        next_states.sort(key=lambda x: (x[0], _schedule_cost(x[2])))
+        states = next_states[:max(1, beam_width)]
+
+    best = min(states, key=lambda x: (x[0], _schedule_cost(x[2])))[2]
+    return best
