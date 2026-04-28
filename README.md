@@ -1,7 +1,7 @@
 # Foreign Whispers — YouTube Dubbing Pipeline
 
 **Author:** Naman Singh  
-**Project:** Foreign Whispers — AI, ML, NLP dubbing pipeline integration 
+**Project:** Foreign Whispers — AI, ML, NLP dubbing pipeline integration  
 **Primary stack:** FastAPI, Next.js, Docker Compose, Whisper STT, Argos Translate, Chatterbox TTS, pyannote.audio, ffmpeg
 
 Foreign Whispers is an end-to-end YouTube dubbing pipeline that downloads a source video, extracts/transcribes speech, translates the transcript, generates time-aligned target-language speech, performs speaker diarization and speaker-aware voice selection, and stitches the final dubbed audio back into the original video without re-encoding the video stream.
