@@ -6,12 +6,12 @@
 
 Foreign Whispers is an end-to-end YouTube dubbing pipeline that downloads a source video, extracts/transcribes speech, translates the transcript, generates time-aligned target-language speech, performs speaker diarization and speaker-aware voice selection, and stitches the final dubbed audio back into the original video without re-encoding the video stream.
 
-> **Final Pipeline data and generated artifacts:** [Google Drive — pipeline_data artifacts](https://drive.google.com/drive/folders/1sVT8J8ndlbTjClMGxVPRBHdKivSr1GM0?usp=sharing)  
-> This folder includes the original downloaded YouTube video, YouTube captions, Whisper transcriptions, Argos translations, diarization outputs, TTS WAV audio files, final dubbed MP4 files, and generated VTT captions.
-> This folder also includes screenshots and screen recordings that demonstrate the system workflow and provide proof of completion.
+> **Final Pipeline data and generated artifacts:** [Google Drive — pipeline_data artifacts](https://drive.google.com/drive/folders/1sVT8J8ndlbTjClMGxVPRBHdKivSr1GM0?usp=sharing)
 
-> `pipeline_data/` contains intermediate audio, video, caption, transcription, translation, TTS, and final stitching artifacts generated across website runs, notebooks, debugging, experiments, and quality comparisons. Large media files such as `.mp4` and `.wav` outputs are also excluded from GitHub. 
-Therefore, `pipeline_data/` in the GitHub repository should not be treated as the primary grading source; please use the committed notebooks, source code and the linked Google Drive folder for grading and verification.
+- This folder includes the original downloaded YouTube video, YouTube captions, Whisper transcriptions, Argos translations, diarization outputs, TTS WAV audio files, final dubbed MP4 files, and generated VTT captions.
+- This folder also includes screenshots and screen recordings that demonstrate the system workflow and provide proof of completion.
+- `pipeline_data/` contains intermediate audio, video, caption, transcription, translation, TTS, and final stitching artifacts generated across website runs, notebooks, debugging, experiments, and quality comparisons. Large media files such as `.mp4` and `.wav` outputs are also excluded from GitHub.
+- Therefore, `pipeline_data/` in the GitHub repository should not be treated as the primary grading source; please use the committed notebooks, source code and the linked Google Drive folder for grading and verification.
 
 ---
 ## Notes
