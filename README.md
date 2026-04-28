@@ -1,6 +1,3 @@
-# Foreign Whispers
-
-
 # Foreign Whispers — YouTube Dubbing Pipeline
 
 **Author:** Naman Singh  
