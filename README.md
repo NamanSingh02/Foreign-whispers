@@ -10,15 +10,41 @@ Foreign Whispers is an end-to-end YouTube dubbing pipeline that downloads a sour
 
 - This folder includes the original downloaded YouTube video, YouTube captions, Whisper transcriptions, Argos translations, diarization outputs, TTS WAV audio files, final dubbed MP4 files, and generated VTT captions.
 - This folder also includes screenshots and screen recordings that demonstrate the system workflow and provide proof of completion.
-- `pipeline_data/` contains intermediate audio, video, caption, transcription, translation, TTS, and final stitching artifacts generated across website runs, notebooks, debugging, experiments, and quality comparisons. Large media files such as `.mp4` and `.wav` outputs are also excluded from GitHub.
-- Therefore, `pipeline_data/` in the GitHub repository should not be treated as the primary grading source; please use the committed notebooks, source code and the linked Google Drive folder for grading and verification.
+
+> **Note for reviewers**
+
+- `pipeline_data/` in this GitHub repository contains intermediate audio, video, caption, transcription, translation, TTS, and final stitching artifacts generated across website runs, notebooks, debugging, experiments, and quality comparisons. Large media files such as `.mp4` and `.wav` outputs are also excluded from GitHub.
+- Therefore, `pipeline_data/` in this repository should not be treated as the primary grading source; please use the committed notebooks, source code and the linked Google Drive folder for grading and verification.
+- For detailed implementation steps, verification outputs, pipeline flow, experiments, and task-wise evidence, please refer to the executed notebooks in the `notebooks/` directory.
+
 
 ---
 ## Notes
 
+Before executing the project, create the following two files in the root directory:
+
+### `cookies.txt`
+
+Export this file in Netscape format using a browser extension such as **Get cookies.txt LOCALLY**. This is required for authenticated YouTube downloads when needed.
+
+### `.env`
+
+Create a `.env` file with your Hugging Face token:
+
+```env
+FW_HF_TOKEN=your_hugging_face_token
+```
+
+
+### Additional execution notes
+
 - The final aligned config used during notebook verification was `c-86ab861`; the baseline config was `c-fb1074a`.
 - TTS generation is cached by config folder and video title. Re-running with the same config reuses existing WAV files unless the cache folder is deleted.
 - The final MP4 is created by replacing the audio stream only; the original video stream is copied without re-encoding.
+
+---
+
+
 ## Project Summary
 
 The project implements a complete dubbing workflow:
@@ -385,6 +411,21 @@ cd frontend && pnpm install && pnpm dev
 - Docker + Docker Compose
 - NVIDIA GPU recommended for Whisper + Chatterbox inference
 - Hugging Face token required for pyannote diarization (`FW_HF_TOKEN`)
+
+### Hugging Face model access
+
+For pyannote speaker diarization to work, the Hugging Face account used for `FW_HF_TOKEN` must have access to the required gated pyannote models.
+
+Before running diarization, log in to Hugging Face in your browser and accept the user conditions for:
+
+- `pyannote/speaker-diarization-3.1`
+- `pyannote/segmentation-3.0`
+
+Then create a Hugging Face access token and place it in `.env`:
+
+```env
+FW_HF_TOKEN=your_hugging_face_token
+```
 
 ## Verification Commands
 
