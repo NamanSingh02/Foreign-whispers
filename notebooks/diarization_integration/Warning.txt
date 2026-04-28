@@ -1,0 +1,3 @@
+WARNING:
+foreign_whispers/diarization.py and api/src/schemas/diarize.py 
+will be rewritten on executing diarization_integration.ipynb

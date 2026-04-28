@@ -1,0 +1,3 @@
+WARNING:
+foreign_whispers/voice_resolution.py
+will be rewritten on executing tts_integration.ipynb
